@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>カーセンサー 統合検索ビューア</title>
+  <style>
+    * { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+      background: #f0f2f5;
+      color: #333;
+    }
+    header {
+      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      color: white;
+      padding: 16px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.3);
+    }
+    header h1 { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.05em; }
+    .header-meta { font-size: 0.78rem; color: #a0b4cc; }
+    .controls {
+      background: white;
+      padding: 12px 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      align-items: center;
+      border-bottom: 1px solid #e0e0e0;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+    }
+    .controls input, .controls select {
+      padding: 7px 12px;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 0.85rem;
+      outline: none;
+      transition: border-color 0.2s;
+    }
+    .controls input:focus, .controls select:focus { border-color: #0f3460; }
+    .controls input[type="text"] { width: 200px; }
+    .controls input[type="number"] { width: 110px; }
+    .controls label { font-size: 0.82rem; color: #666; white-space: nowrap; }
+    .count-badge {
+      background: #0f3460;
+      color: white;
+      padding: 4px 12px;
+      border-radius: 20px;
+      font-size: 0.8rem;
+      font-weight: 600;
+      margin-left: auto;
+    }
+    .tabs {
+      background: white;
+      padding: 0 16px;
+      display: flex;
+      flex-wrap: wrap;
+      gap: 4px;
+      border-bottom: 2px solid #e0e0e0;
+      overflow-x: auto;
+    }
+    .tab-btn {
+      padding: 10px 14px;
+      border: none;
+      background: none;
+      cursor: pointer;
+      font-size: 0.82rem;
+      color: #666;
+      border-bottom: 3px solid transparent;
+      margin-bottom: -2px;
+      white-space: nowrap;
+      transition: all 0.2s;
+    }
+    .tab-btn:hover { color: #0f3460; background: #f5f8ff; }
+    .tab-btn.active { color: #0f3460; border-bottom-color: #0f3460; font-weight: 700; }
+    .tab-btn .tab-count {
+      background: #e8edf5;
+      color: #0f3460;
+      padding: 1px 7px;
+      border-radius: 10px;
+      font-size: 0.75rem;
+      margin-left: 4px;
+    }
+    .tab-btn.active .tab-count { background: #0f3460; color: white; }
+    .main-content {
+      padding: 16px;
+      max-width: 1600px;
+      margin: 0 auto;
+    }
+    .car-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+      gap: 14px;
+    }
+    .car-card {
+      background: white;
+      border-radius: 10px;
+      overflow: hidden;
+      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      transition: transform 0.2s, box-shadow 0.2s;
+      cursor: pointer;
+      text-decoration: none;
+      color: inherit;
+      display: flex;
+      flex-direction: column;
+    }
+    .car-card:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+    }
+    .car-img-wrap {
+      position: relative;
+      width: 100%;
+      padding-top: 66%;
+      background: #e8ecf0;
+      overflow: hidden;
+    }
+    .car-img-wrap img {
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      object-fit: cover;
+    }
+    .car-img-wrap .no-img {
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%, -50%);
+      color: #aaa;
+      font-size: 0.8rem;
+    }
+    .label-badge {
+      position: absolute;
+      top: 8px; left: 8px;
+      background: rgba(15,52,96,0.85);
+      color: white;
+      padding: 3px 8px;
+      border-radius: 4px;
+      font-size: 0.7rem;
+      font-weight: 600;
+      backdrop-filter: blur(2px);
+    }
+    .car-body {
+      padding: 10px 12px;
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+      gap: 6px;
+    }
+    .car-title {
+      font-size: 0.9rem;
+      font-weight: 700;
+      line-height: 1.3;
+      color: #1a1a2e;
+    }
+    .price-row {
+      display: flex;
+      align-items: baseline;
+      gap: 8px;
+    }
+    .total-price {
+      font-size: 1.2rem;
+      font-weight: 800;
+      color: #c0392b;
+    }
+    .base-price {
+      font-size: 0.78rem;
+      color: #888;
+    }
+    .specs-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 3px 8px;
+      font-size: 0.75rem;
+    }
+    .spec-item { display: flex; gap: 4px; }
+    .spec-key { color: #888; white-space: nowrap; }
+    .spec-val { color: #333; font-weight: 500; }
+    .shop-row {
+      font-size: 0.75rem;
+      color: #666;
+      border-top: 1px solid #f0f0f0;
+      padding-top: 6px;
+      margin-top: auto;
+    }
+    .loading {
+      text-align: center;
+      padding: 60px 20px;
+      color: #666;
+      font-size: 1rem;
+    }
+    .spinner {
+      width: 40px; height: 40px;
+      border: 4px solid #e0e0e0;
+      border-top-color: #0f3460;
+      border-radius: 50%;
+      animation: spin 0.8s linear infinite;
+      margin: 0 auto 16px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+    .error-msg {
+      text-align: center;
+      padding: 40px;
+      color: #c0392b;
+      background: #fff5f5;
+      border-radius: 8px;
+      margin: 20px;
+    }
+    .no-result {
+      text-align: center;
+      padding: 40px;
+      color: #888;
+      grid-column: 1/-1;
+    }
+    .updated-at {
+      font-size: 0.75rem;
+      color: #999;
+      text-align: right;
+      padding: 8px 16px 4px;
+    }
+    @media (max-width: 600px) {
+      .controls input[type="text"] { width: 140px; }
+      .car-grid { grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div>
+    <h1>カーセンサー 統合検索ビューア</h1>
+    <div class="header-meta">11件の検索条件を1ページで確認</div>
+  </div>
+  <div class="header-meta" id="updated-info">読み込み中...</div>
+</header>
+
+<div class="controls">
+  <label>キーワード:
+    <input type="text" id="keyword-input" placeholder="車名・店舗名で絞り込み">
+  </label>
+  <label>価格上限:
+    <input type="number" id="price-max" placeholder="例: 500" min="0" step="10">
+    <span style="font-size:0.82rem;color:#666">万円以下</span>
+  </label>
+  <label>並び替え:
+    <select id="sort-select">
+      <option value="default">デフォルト</option>
+      <option value="price_asc">価格が安い順</option>
+      <option value="price_desc">価格が高い順</option>
+      <option value="year_desc">年式が新しい順</option>
+      <option value="year_asc">年式が古い順</option>
+      <option value="mileage_asc">走行距離が少ない順</option>
+    </select>
+  </label>
+  <span class="count-badge" id="count-badge">0台</span>
+</div>
+
+<div class="tabs" id="tabs-container"></div>
+<div class="updated-at" id="updated-at-row"></div>
+
+<div class="main-content">
+  <div class="loading" id="loading">
+    <div class="spinner"></div>
+    データを読み込んでいます...
+  </div>
+  <div id="error-container" style="display:none"></div>
+  <div class="car-grid" id="car-grid" style="display:none"></div>
+</div>
+
+<script>
+  let allData = [];
+  let currentTab = 'all';
+
+  async function loadData() {
+    try {
+      const resp = await fetch('data.json?t=' + Date.now());
+      if (!resp.ok) throw new Error('データの取得に失敗しました (HTTP ' + resp.status + ')');
+      allData = await resp.json();
+      initTabs();
+      renderCards();
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('car-grid').style.display = 'grid';
+
+      // 更新日時表示
+      const allCars = allData.flatMap(d => d.cars);
+      const times = allData.filter(d => d.scraped_at).map(d => d.scraped_at);
+      if (times.length > 0) {
+        const latest = new Date(Math.max(...times.map(t => new Date(t))));
+        const fmt = latest.toLocaleString('ja-JP', {year:'numeric',month:'2-digit',day:'2-digit',hour:'2-digit',minute:'2-digit'});
+        document.getElementById('updated-info').textContent = '最終更新: ' + fmt;
+        document.getElementById('updated-at-row').textContent = 'データ最終更新: ' + fmt + '（GitHub Actionsにより1日4回自動更新）';
+      }
+    } catch (e) {
+      document.getElementById('loading').style.display = 'none';
+      document.getElementById('error-container').style.display = 'block';
+      document.getElementById('error-container').innerHTML =
+        '<div class="error-msg"><strong>データの読み込みに失敗しました</strong><br>' + e.message + '<br><br>しばらく待ってからページを再読み込みしてください。</div>';
+    }
+  }
+
+  function initTabs() {
+    const container = document.getElementById('tabs-container');
+    const allCars = allData.flatMap(d => d.cars);
+
+    let html = `<button class="tab-btn active" onclick="switchTab('all', this)">すべて<span class="tab-count">${allCars.length}</span></button>`;
+    allData.forEach(d => {
+      html += `<button class="tab-btn" onclick="switchTab('${escHtml(d.label)}', this)">${escHtml(d.label)}<span class="tab-count">${d.scraped_count}</span></button>`;
+    });
+    container.innerHTML = html;
+  }
+
+  function switchTab(label, btn) {
+    currentTab = label;
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
+    renderCards();
+  }
+
+  function getFilteredCars() {
+    let cars = currentTab === 'all'
+      ? allData.flatMap(d => d.cars)
+      : (allData.find(d => d.label === currentTab) || {cars: []}).cars;
+
+    const kw = document.getElementById('keyword-input').value.trim().toLowerCase();
+    const priceMax = parseFloat(document.getElementById('price-max').value);
+    const sort = document.getElementById('sort-select').value;
+
+    if (kw) {
+      cars = cars.filter(c =>
+        (c.title || '').toLowerCase().includes(kw) ||
+        (c.shop_name || '').toLowerCase().includes(kw) ||
+        (c.area || '').toLowerCase().includes(kw)
+      );
+    }
+
+    if (!isNaN(priceMax) && priceMax > 0) {
+      cars = cars.filter(c => {
+        const p = parsePrice(c.total_price);
+        return p !== null && p <= priceMax;
+      });
+    }
+
+    if (sort === 'price_asc') cars.sort((a, b) => (parsePrice(a.total_price) ?? 99999) - (parsePrice(b.total_price) ?? 99999));
+    else if (sort === 'price_desc') cars.sort((a, b) => (parsePrice(b.total_price) ?? 0) - (parsePrice(a.total_price) ?? 0));
+    else if (sort === 'year_desc') cars.sort((a, b) => parseYear(b.year) - parseYear(a.year));
+    else if (sort === 'year_asc') cars.sort((a, b) => parseYear(a.year) - parseYear(b.year));
+    else if (sort === 'mileage_asc') cars.sort((a, b) => parseMileage(a.mileage) - parseMileage(b.mileage));
+
+    return cars;
+  }
+
+  function parsePrice(s) {
+    if (!s || s === '---') return null;
+    const m = s.replace(/,/g, '').match(/[\d.]+/);
+    return m ? parseFloat(m[0]) : null;
+  }
+
+  function parseYear(s) {
+    if (!s || s === '---') return 0;
+    const m = s.match(/(\d{4})/);
+    return m ? parseInt(m[1]) : 0;
+  }
+
+  function parseMileage(s) {
+    if (!s || s === '---') return 999999;
+    const m = s.replace(/,/g, '').match(/[\d.]+/);
+    if (!m) return 999999;
+    const v = parseFloat(m[0]);
+    return s.includes('万') ? v * 10000 : v;
+  }
+
+  function escHtml(s) {
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+  }
+
+  function renderCards() {
+    const cars = getFilteredCars();
+    const grid = document.getElementById('car-grid');
+    document.getElementById('count-badge').textContent = cars.length + '台';
+
+    if (cars.length === 0) {
+      grid.innerHTML = '<div class="no-result">条件に一致する車両が見つかりませんでした</div>';
+      return;
+    }
+
+    grid.innerHTML = cars.map(c => {
+      const imgHtml = c.image_url
+        ? `<img src="${escHtml(c.image_url)}" alt="${escHtml(c.title)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
+        : '';
+      const noImgHtml = `<div class="no-img" style="${c.image_url ? 'display:none' : ''}">画像なし</div>`;
+
+      return `<a class="car-card" href="${escHtml(c.detail_url)}" target="_blank" rel="noopener">
+        <div class="car-img-wrap">
+          ${imgHtml}${noImgHtml}
+          <span class="label-badge">${escHtml(c.search_label)}</span>
+        </div>
+        <div class="car-body">
+          <div class="car-title">${escHtml(c.title) || '（車名不明）'}</div>
+          <div class="price-row">
+            <span class="total-price">${escHtml(c.total_price)}</span>
+            ${c.base_price && c.base_price !== '---' ? `<span class="base-price">本体 ${escHtml(c.base_price)}</span>` : ''}
+          </div>
+          <div class="specs-grid">
+            <div class="spec-item"><span class="spec-key">年式:</span><span class="spec-val">${escHtml(c.year)}</span></div>
+            <div class="spec-item"><span class="spec-key">走行:</span><span class="spec-val">${escHtml(c.mileage)}</span></div>
+            <div class="spec-item"><span class="spec-key">修復歴:</span><span class="spec-val">${escHtml(c.repair_history)}</span></div>
+            <div class="spec-item"><span class="spec-key">車検:</span><span class="spec-val">${escHtml(c.inspection)}</span></div>
+          </div>
+          <div class="shop-row">${escHtml(c.shop_name)}${c.area && c.area !== '---' ? ' ／ ' + escHtml(c.area) : ''}</div>
+        </div>
+      </a>`;
+    }).join('');
+  }
+
+  document.getElementById('keyword-input').addEventListener('input', renderCards);
+  document.getElementById('price-max').addEventListener('input', renderCards);
+  document.getElementById('sort-select').addEventListener('change', renderCards);
+
+  loadData();
+</script>
+</body>
+</html>
