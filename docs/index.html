@@ -189,10 +189,11 @@
       line-height: 1.4;
       transition: color 0.15s, background 0.15s;
       flex-shrink: 0;
+      user-select: none;
     }
     .tab-edit-btn:hover { background: var(--primary); color: white; }
     /* 編集モード中は常に表示 */
-    body.edit-mode .tab-edit-btn { display: inline-block; }
+    body.edit-mode .tab-edit-btn { display: inline-flex; align-items: center; }
 
     /* 編集モーダル */
     .modal-overlay {
@@ -592,8 +593,8 @@
       // 編集ボタンはCSSで制御（edit-modeクラスで表示/非表示）
       html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)">
         <span class="tab-label-text">${escHtml(dispLabel)}</span>
-        <button class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</button>
-        <span class="tab-count">${d.scraped_count}</span>
+        <span class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</span>
+        <span class="tab-count">${d.cars.length}</span>
       </button>`;
     });
     container.innerHTML = html;
