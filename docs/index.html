@@ -4,6 +4,10 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>カーセンサー 統合検索ビューア</title>
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
+  <link rel="apple-touch-icon" href="favicon.png">
   <style>
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
@@ -78,6 +82,9 @@
       margin-bottom: -2px;
       white-space: nowrap;
       transition: all 0.2s;
+      display: flex;
+      align-items: center;
+      gap: 4px;
     }
     .tab-btn:hover { color: #0f3460; background: #f5f8ff; }
     .tab-btn.active { color: #0f3460; border-bottom-color: #0f3460; font-weight: 700; }
@@ -90,6 +97,70 @@
       margin-left: 4px;
     }
     .tab-btn.active .tab-count { background: #0f3460; color: white; }
+    /* ラベル編集ボタン */
+    .tab-edit-btn {
+      display: none;
+      background: none;
+      border: none;
+      cursor: pointer;
+      padding: 2px 4px;
+      border-radius: 3px;
+      color: #aaa;
+      font-size: 0.7rem;
+      line-height: 1;
+      transition: color 0.15s, background 0.15s;
+    }
+    .tab-btn:hover .tab-edit-btn { display: inline-block; }
+    .tab-edit-btn:hover { color: #0f3460; background: #e0e8f5; }
+    /* 編集モーダル */
+    .modal-overlay {
+      display: none;
+      position: fixed;
+      inset: 0;
+      background: rgba(0,0,0,0.45);
+      z-index: 1000;
+      align-items: center;
+      justify-content: center;
+    }
+    .modal-overlay.show { display: flex; }
+    .modal-box {
+      background: white;
+      border-radius: 12px;
+      padding: 28px 32px;
+      width: 90%;
+      max-width: 440px;
+      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+    }
+    .modal-box h3 { font-size: 1rem; margin-bottom: 16px; color: #1a1a2e; }
+    .modal-box input[type="text"] {
+      width: 100%;
+      padding: 10px 14px;
+      border: 1.5px solid #ccc;
+      border-radius: 8px;
+      font-size: 0.95rem;
+      outline: none;
+      margin-bottom: 18px;
+      transition: border-color 0.2s;
+    }
+    .modal-box input[type="text"]:focus { border-color: #0f3460; }
+    .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
+    .btn { padding: 8px 20px; border-radius: 6px; border: none; cursor: pointer; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }
+    .btn:hover { opacity: 0.85; }
+    .btn-primary { background: #0f3460; color: white; }
+    .btn-secondary { background: #e0e0e0; color: #555; }
+    .btn-danger { background: #c0392b; color: white; }
+    /* 編集モードバナー */
+    .edit-mode-bar {
+      display: none;
+      background: #fff8e1;
+      border-bottom: 1px solid #ffe082;
+      padding: 6px 16px;
+      font-size: 0.8rem;
+      color: #795548;
+      align-items: center;
+      gap: 10px;
+    }
+    .edit-mode-bar.show { display: flex; }
     .main-content {
       padding: 16px;
       max-width: 1600px;
@@ -241,6 +312,13 @@
   <div class="header-meta" id="updated-info">読み込み中...</div>
 </header>
 
+<!-- 編集モードバナー -->
+<div class="edit-mode-bar" id="edit-mode-bar">
+  ✏️ ラベル編集モード：タブ名の横の <strong>✎</strong> ボタンをクリックして名前を変更できます。
+  <button class="btn btn-secondary" style="margin-left:auto;padding:4px 12px;font-size:0.78rem" onclick="toggleEditMode()">編集モードを終了</button>
+  <button class="btn btn-danger" style="padding:4px 12px;font-size:0.78rem" onclick="resetAllLabels()">リセット</button>
+</div>
+
 <div class="controls">
   <label>キーワード:
     <input type="text" id="keyword-input" placeholder="車名・店舗名で絞り込み">
@@ -259,6 +337,7 @@
       <option value="mileage_asc">走行距離が少ない順</option>
     </select>
   </label>
+  <button class="btn btn-secondary" style="padding:6px 14px;font-size:0.8rem" onclick="toggleEditMode()" title="タブのラベルを編集する">✏️ ラベル編集</button>
   <span class="count-badge" id="count-badge">0台</span>
 </div>
 
@@ -274,9 +353,105 @@
   <div class="car-grid" id="car-grid" style="display:none"></div>
 </div>
 
+<!-- ラベル編集モーダル -->
+<div class="modal-overlay" id="label-modal">
+  <div class="modal-box">
+    <h3>タブ名を編集</h3>
+    <input type="text" id="label-input" placeholder="新しいタブ名を入力">
+    <div class="modal-actions">
+      <button class="btn btn-secondary" onclick="closeModal()">キャンセル</button>
+      <button class="btn btn-primary" onclick="saveLabel()">保存</button>
+    </div>
+  </div>
+</div>
+
 <script>
   let allData = [];
   let currentTab = 'all';
+  let editMode = false;
+  let editingOriginalLabel = null;
+
+  // ローカルストレージからカスタムラベルを読み込む
+  function getCustomLabels() {
+    try {
+      return JSON.parse(localStorage.getItem('carsensor_labels') || '{}');
+    } catch(e) { return {}; }
+  }
+
+  function saveCustomLabels(labels) {
+    localStorage.setItem('carsensor_labels', JSON.stringify(labels));
+  }
+
+  // 表示ラベルを取得（カスタムがあればカスタムを使用）
+  function getDisplayLabel(originalLabel) {
+    const customs = getCustomLabels();
+    return customs[originalLabel] || originalLabel;
+  }
+
+  // 編集モードのON/OFF切り替え
+  function toggleEditMode() {
+    editMode = !editMode;
+    document.getElementById('edit-mode-bar').classList.toggle('show', editMode);
+    initTabs();
+  }
+
+  // 全ラベルをリセット
+  function resetAllLabels() {
+    if (confirm('全てのタブ名をデフォルトに戻しますか？')) {
+      localStorage.removeItem('carsensor_labels');
+      initTabs();
+      renderCards();
+    }
+  }
+
+  // ラベル編集モーダルを開く
+  function openEditModal(originalLabel, event) {
+    event.stopPropagation();
+    event.preventDefault();
+    editingOriginalLabel = originalLabel;
+    const currentLabel = getDisplayLabel(originalLabel);
+    document.getElementById('label-input').value = currentLabel;
+    document.getElementById('label-modal').classList.add('show');
+    setTimeout(() => document.getElementById('label-input').focus(), 50);
+  }
+
+  // モーダルを閉じる
+  function closeModal() {
+    document.getElementById('label-modal').classList.remove('show');
+    editingOriginalLabel = null;
+  }
+
+  // ラベルを保存
+  function saveLabel() {
+    const newLabel = document.getElementById('label-input').value.trim();
+    if (!newLabel) { alert('ラベル名を入力してください'); return; }
+    if (!editingOriginalLabel) return;
+
+    const customs = getCustomLabels();
+    customs[editingOriginalLabel] = newLabel;
+    saveCustomLabels(customs);
+
+    // 現在のタブが編集中のラベルなら更新
+    if (currentTab === editingOriginalLabel) {
+      currentTab = editingOriginalLabel; // 内部キーはoriginalのまま
+    }
+
+    closeModal();
+    initTabs();
+    renderCards();
+  }
+
+  // Enterキーで保存
+  document.addEventListener('DOMContentLoaded', () => {
+    document.getElementById('label-input').addEventListener('keydown', (e) => {
+      if (e.key === 'Enter') saveLabel();
+      if (e.key === 'Escape') closeModal();
+    });
+    // モーダル外クリックで閉じる
+    document.getElementById('label-modal').addEventListener('click', (e) => {
+      if (e.target === document.getElementById('label-modal')) closeModal();
+    });
+  });
 
   async function loadData() {
     try {
@@ -289,7 +464,6 @@
       document.getElementById('car-grid').style.display = 'grid';
 
       // 更新日時表示
-      const allCars = allData.flatMap(d => d.cars);
       const times = allData.filter(d => d.scraped_at).map(d => d.scraped_at);
       if (times.length > 0) {
         const latest = new Date(Math.max(...times.map(t => new Date(t))));
@@ -309,9 +483,16 @@
     const container = document.getElementById('tabs-container');
     const allCars = allData.flatMap(d => d.cars);
 
-    let html = `<button class="tab-btn active" onclick="switchTab('all', this)">すべて<span class="tab-count">${allCars.length}</span></button>`;
+    let html = `<button class="tab-btn ${currentTab === 'all' ? 'active' : ''}" onclick="switchTab('all', this)">すべて<span class="tab-count">${allCars.length}</span></button>`;
+
     allData.forEach(d => {
-      html += `<button class="tab-btn" onclick="switchTab('${escHtml(d.label)}', this)">${escHtml(d.label)}<span class="tab-count">${d.scraped_count}</span></button>`;
+      const origLabel = d.label;
+      const dispLabel = getDisplayLabel(origLabel);
+      const isActive = currentTab === origLabel;
+      const editBtn = editMode
+        ? `<button class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</button>`
+        : '';
+      html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)">${escHtml(dispLabel)}${editBtn}<span class="tab-count">${d.scraped_count}</span></button>`;
     });
     container.innerHTML = html;
   }
@@ -391,6 +572,7 @@
     }
 
     grid.innerHTML = cars.map(c => {
+      const dispLabel = getDisplayLabel(c.search_label);
       const imgHtml = c.image_url
         ? `<img src="${escHtml(c.image_url)}" alt="${escHtml(c.title)}" loading="lazy" onerror="this.style.display='none';this.nextElementSibling.style.display='block'">`
         : '';
@@ -399,7 +581,7 @@
       return `<a class="car-card" href="${escHtml(c.detail_url)}" target="_blank" rel="noopener">
         <div class="car-img-wrap">
           ${imgHtml}${noImgHtml}
-          <span class="label-badge">${escHtml(c.search_label)}</span>
+          <span class="label-badge">${escHtml(dispLabel)}</span>
         </div>
         <div class="car-body">
           <div class="car-title">${escHtml(c.title) || '（車名不明）'}</div>

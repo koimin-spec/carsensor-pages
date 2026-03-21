@@ -1,7 +1,12 @@
 #!/usr/bin/env python3
 """
-カーセンサー 複数URL統合スクレイパー
+カーセンサー 複数URL統合スクレイパー（全ページ取得対応版）
 GitHub Actionsで定期実行し、docs/data.json に保存する
+
+ページネーション仕様:
+  - カーセンサーは全URLが最終的に /usedcar/bXX/sXXX/sort/indexN.html 形式に変換される
+  - 2ページ目: index2.html, 3ページ目: index3.html ...
+  - ページネーションリンクのhrefを直接取得して次ページURLを決定する
 """
 
 import requests
@@ -10,6 +15,7 @@ import json
 import time
 import re
 import os
+from urllib.parse import urlparse, urlunparse, urlencode, parse_qs, urljoin
 from datetime import datetime
 
 # スクレイピング対象URL一覧（ラベル付き）
@@ -20,15 +26,16 @@ SEARCH_URLS = [
     },
     {
         "label": "キャンパー鹿児島",
-        "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%83%BC%E9%B9%BF%E5%85%90%E5%B3%B6/index2.html?SORT=2"
+        "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%91%E3%83%BC%E9%B9%BF%E5%85%90%E5%B3%B6/index.html?SORT=2"
     },
     {
         "label": "キャンピングカー",
-        "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC/index3.html?SORT=21"
+        "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC/index.html?SORT=21",
+        "max_cars": 100
     },
     {
         "label": "トイファクトリー",
-        "url": "https://www.carsensor.net/usedcar/freeword/%E3%83%88%E3%82%A4%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC/index2.html?SORT=2"
+        "url": "https://www.carsensor.net/usedcar/freeword/%E3%83%88%E3%82%A4%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC/index.html?SORT=2"
     },
     {
         "label": "メルセデス S026",
@@ -51,7 +58,7 @@ SEARCH_URLS = [
         "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015"
     },
     {
-        "label": "アストンマーティン AM_S022 (2019〜)",
+        "label": "メルセデスAMG Gクラス (2019〜)",
         "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&LP=AM_S022&SORT=2&CARC=AM_S022&YMIN=2019"
     },
     {
@@ -66,6 +73,74 @@ HEADERS = {
     "Accept": "text/html,application/xhtml+xml,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     "Referer": "https://www.carsensor.net/"
 }
+
+# 1URLあたりの最大取得ページ数（安全のため上限を設ける）
+MAX_PAGES = 30
+
+
+def get_total_count(soup):
+    """ページから総件数を取得する"""
+    # ボタンの「XX台 検索する」から取得（最も信頼性が高い）
+    search_btn = soup.find("button", id="sbmt")
+    if search_btn:
+        text = search_btn.get_text(strip=True)
+        m = re.search(r'(\d[\d,]*)', text)
+        if m:
+            return int(m.group(1).replace(",", ""))
+
+    # 「XX台」テキストを広く探す
+    for el in soup.find_all(string=re.compile(r'\d+台')):
+        m = re.search(r'(\d[\d,]*)台', el)
+        if m:
+            count = int(m.group(1).replace(",", ""))
+            if 1 <= count <= 99999:
+                return count
+
+    return None
+
+
+def get_next_page_url_from_html(soup, current_url):
+    """
+    ページのHTMLから次ページのURLを取得する。
+    カーセンサーのページネーションリンク（index2.html, index3.html...）を直接取得する。
+    """
+    # 現在のページ番号を取得
+    current_page_num = 1
+    m = re.search(r'index(\d+)\.html', current_url)
+    if m:
+        current_page_num = int(m.group(1))
+
+    next_page_num = current_page_num + 1
+
+    # ページネーションエリアのリンクを探す
+    # 「次へ」ボタン付近のリンク、またはページ番号リンクを探す
+    all_links = soup.find_all("a", href=True)
+    for link in all_links:
+        href = link.get("href", "")
+        text = link.get_text(strip=True)
+
+        # 次のページ番号のリンクを探す
+        if text == str(next_page_num):
+            full_url = urljoin("https://www.carsensor.net", href)
+            return full_url
+
+        # 「次へ」リンクを探す
+        if text in ["次へ", "次"]:
+            full_url = urljoin("https://www.carsensor.net", href)
+            return full_url
+
+        # index(N+1).html パターンのリンクを探す
+        if f"index{next_page_num}.html" in href:
+            full_url = urljoin("https://www.carsensor.net", href)
+            return full_url
+
+    return None
+
+
+def has_more_pages(soup, current_url):
+    """次のページが存在するかチェックする"""
+    next_url = get_next_page_url_from_html(soup, current_url)
+    return next_url is not None
 
 
 def parse_car_card(card_div, search_label):
@@ -151,54 +226,121 @@ def parse_car_card(card_div, search_label):
     return car
 
 
+def fetch_page(url):
+    """指定URLのページを取得してBeautifulSoupオブジェクトとfinal_urlを返す"""
+    resp = requests.get(url, headers=HEADERS, timeout=30)
+    resp.raise_for_status()
+    resp.encoding = resp.apparent_encoding
+    return BeautifulSoup(resp.text, "html.parser"), resp.url
+
+
 def scrape_url(search_info):
-    """指定URLから車両リストをスクレイピングする"""
+    """指定URLから全ページの車両リストをスクレイピングする"""
     label = search_info["label"]
-    url = search_info["url"]
-    print(f"  スクレイピング中: {label}")
+    base_url = search_info["url"]
+    max_cars = search_info.get("max_cars", None)  # 取得上限台数（Noneは無制限）
+    print(f"\n  スクレイピング中: {label}")
+    print(f"  URL: {base_url}")
+    if max_cars:
+        print(f"  取得上限: {max_cars}台")
+
+    all_cars = []
+    seen_ids = set()
+    total_count = None
+    current_url = base_url
+    current_page = 1
 
     try:
-        resp = requests.get(url, headers=HEADERS, timeout=30)
-        resp.raise_for_status()
-        resp.encoding = resp.apparent_encoding
-        soup = BeautifulSoup(resp.text, "html.parser")
-
-        # 件数取得
-        count_el = soup.find(class_=re.compile(r"hitCount|hitNum|searchCount|resultCount"))
-        if not count_el:
-            count_el = soup.find("span", class_=re.compile(r"count|Count"))
-        total_count = count_el.get_text(strip=True) if count_el else "不明"
-
-        # 車両カード取得
-        car_cards = soup.find_all("div", id=re.compile(r"_cas$"))
-        print(f"  取得件数: {len(car_cards)}件")
-
-        cars = []
-        for card in car_cards:
+        while current_page <= MAX_PAGES:
+            print(f"  ページ {current_page} を取得中: {current_url}")
             try:
-                car = parse_car_card(card, label)
-                cars.append(car)
+                soup, final_url = fetch_page(current_url)
+                # リダイレクト後のURLを使用
+                if final_url != current_url:
+                    print(f"  リダイレクト先: {final_url}")
+                    current_url = final_url
             except Exception as e:
-                print(f"  カード解析エラー: {e}")
+                print(f"  ページ取得エラー (page {current_page}): {e}")
+                break
+
+            # 1ページ目のみ総件数を取得
+            if current_page == 1:
+                total_count = get_total_count(soup)
+                print(f"  総件数: {total_count}台")
+
+            # 車両カード取得
+            car_cards = soup.find_all("div", id=re.compile(r"_cas$"))
+            print(f"  このページの車両数: {len(car_cards)}件")
+
+            if len(car_cards) == 0:
+                print(f"  車両が見つからないため終了")
+                break
+
+            # 重複チェックしながら追加
+            new_count = 0
+            for card in car_cards:
+                try:
+                    car = parse_car_card(card, label)
+                    car_id = car.get("car_id", "")
+                    if car_id and car_id in seen_ids:
+                        continue
+                    if car_id:
+                        seen_ids.add(car_id)
+                    all_cars.append(car)
+                    new_count += 1
+                except Exception as e:
+                    print(f"  カード解析エラー: {e}")
+
+            print(f"  新規追加: {new_count}件 (累計: {len(all_cars)}件)")
+
+            # 上限台数チェック
+            if max_cars and len(all_cars) >= max_cars:
+                # 超過分を削除して上限に合わせる
+                all_cars = all_cars[:max_cars]
+                print(f"  上限台数 {max_cars}台 に達したため終了")
+                break
+
+            # 総件数から全ページ取得済みか判定
+            if total_count and len(all_cars) >= total_count:
+                print(f"  全件取得完了 ({len(all_cars)}/{total_count})")
+                break
+
+            # 次のページURLをHTMLから取得
+            next_url = get_next_page_url_from_html(soup, current_url)
+            if not next_url:
+                print(f"  次のページなし → 終了")
+                break
+
+            if next_url == current_url:
+                print(f"  URLが変化しないため終了")
+                break
+
+            current_url = next_url
+            current_page += 1
+            time.sleep(2)  # サーバー負荷軽減のため待機
+
+        print(f"  完了: {len(all_cars)}台取得 (総件数: {total_count}台)")
 
         return {
             "label": label,
-            "url": url,
-            "total_count": total_count,
-            "scraped_count": len(cars),
-            "cars": cars,
+            "url": base_url,
+            "total_count": str(total_count) if total_count else "不明",
+            "scraped_count": len(all_cars),
+            "cars": all_cars,
             "error": None,
             "scraped_at": datetime.now().isoformat()
         }
 
     except Exception as e:
         print(f"  エラー: {e}")
+        import traceback
+        traceback.print_exc()
         return {
             "label": label,
-            "url": url,
+            "url": base_url,
             "total_count": "0",
-            "scraped_count": 0,
-            "cars": [],
+            "scraped_count": len(all_cars),
+            "cars": all_cars,
             "error": str(e),
             "scraped_at": datetime.now().isoformat()
         }
@@ -211,12 +353,12 @@ def scrape_all():
         result = scrape_url(search_info)
         results.append(result)
         if i < len(SEARCH_URLS) - 1:
-            time.sleep(2)
+            time.sleep(3)
     return results
 
 
 if __name__ == "__main__":
-    print("カーセンサー スクレイピング開始...")
+    print("カーセンサー スクレイピング開始（全ページ取得版）...")
     results = scrape_all()
 
     # docs/data.json に保存（GitHub Pages用）
@@ -229,6 +371,17 @@ if __name__ == "__main__":
 
     print(f"\n完了。結果を {output_path} に保存しました。")
     total_cars = sum(r["scraped_count"] for r in results)
-    print(f"合計取得台数: {total_cars}台")
+    print(f"\n合計取得台数: {total_cars}台")
+    print(f"\n{'ラベル':<35} {'取得数':>6} {'総件数':>6} {'差異':>6}")
+    print("-" * 60)
     for r in results:
-        print(f"  [{r['label']}] {r['scraped_count']}台 (エラー: {r['error']})")
+        scraped = r["scraped_count"]
+        total = r["total_count"]
+        try:
+            diff = scraped - int(total)
+            diff_str = f"{diff:+d}"
+        except:
+            diff_str = "---"
+        print(f"  {r['label']:<33} {scraped:>6}台 {total:>6}台 {diff_str:>6}")
+        if r["error"]:
+            print(f"    エラー: {r['error']}")
