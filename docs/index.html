@@ -160,24 +160,23 @@
       margin-bottom: -2px;
       white-space: nowrap;
       transition: all 0.2s;
-      display: flex;
+      display: inline-flex;
       align-items: center;
       gap: 4px;
+      flex-wrap: nowrap;
     }
     .tab-btn:hover { color: var(--primary); background: var(--surface2); }
     .tab-btn.active { color: var(--primary); border-bottom-color: var(--tab-active-border); font-weight: 700; }
     .tab-btn .tab-count {
-      display: inline-block;
       background: var(--primary-light);
       color: var(--primary);
-      padding: 1px 7px;
+      padding: 2px 6px;
       border-radius: 10px;
-      font-size: 0.75rem;
+      font-size: 0.72rem;
       font-weight: 600;
-      margin-left: 4px;
-      vertical-align: middle;
-      line-height: 1.6;
       white-space: nowrap;
+      flex-shrink: 0;
+      line-height: 1.4;
     }
     .tab-btn.active .tab-count { background: var(--primary); color: white; }
 
