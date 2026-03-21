@@ -9,15 +9,70 @@
   <link rel="icon" type="image/png" sizes="16x16" href="favicon-16.png">
   <link rel="apple-touch-icon" href="favicon.png">
   <style>
+    /* ===== CSS変数（ライト/ダーク共通） ===== */
+    :root {
+      --bg: #f0f2f5;
+      --surface: #ffffff;
+      --surface2: #f5f8ff;
+      --border: #e0e0e0;
+      --text: #333333;
+      --text2: #666666;
+      --text3: #999999;
+      --header-bg: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+      --header-text: #ffffff;
+      --header-meta: #a0b4cc;
+      --primary: #0f3460;
+      --primary-light: #e8edf5;
+      --price-color: #c0392b;
+      --tab-active-border: #0f3460;
+      --card-shadow: 0 1px 4px rgba(0,0,0,0.1);
+      --card-hover-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      --controls-shadow: 0 2px 4px rgba(0,0,0,0.08);
+      --badge-bg: rgba(15,52,96,0.85);
+      --modal-overlay: rgba(0,0,0,0.45);
+      --edit-bar-bg: #fff8e1;
+      --edit-bar-border: #ffe082;
+      --edit-bar-text: #795548;
+      --night-btn-bg: #e0e0e0;
+      --night-btn-text: #333;
+    }
+    body.dark {
+      --bg: #0d1117;
+      --surface: #161b22;
+      --surface2: #1c2333;
+      --border: #30363d;
+      --text: #e6edf3;
+      --text2: #8b949e;
+      --text3: #6e7681;
+      --header-bg: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1c2333 100%);
+      --header-text: #e6edf3;
+      --header-meta: #8b949e;
+      --primary: #58a6ff;
+      --primary-light: #1c2333;
+      --price-color: #ff7b72;
+      --tab-active-border: #58a6ff;
+      --card-shadow: 0 1px 4px rgba(0,0,0,0.4);
+      --card-hover-shadow: 0 6px 16px rgba(0,0,0,0.6);
+      --controls-shadow: 0 2px 4px rgba(0,0,0,0.3);
+      --badge-bg: rgba(88,166,255,0.85);
+      --modal-overlay: rgba(0,0,0,0.7);
+      --edit-bar-bg: #1c2333;
+      --edit-bar-border: #30363d;
+      --edit-bar-text: #8b949e;
+      --night-btn-bg: #30363d;
+      --night-btn-text: #e6edf3;
+    }
+
     * { box-sizing: border-box; margin: 0; padding: 0; }
     body {
       font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
-      background: #f0f2f5;
-      color: #333;
+      background: var(--bg);
+      color: var(--text);
+      transition: background 0.3s, color 0.3s;
     }
     header {
-      background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
-      color: white;
+      background: var(--header-bg);
+      color: var(--header-text);
       padding: 16px 20px;
       display: flex;
       align-items: center;
@@ -27,34 +82,56 @@
       box-shadow: 0 2px 8px rgba(0,0,0,0.3);
     }
     header h1 { font-size: 1.2rem; font-weight: 700; letter-spacing: 0.05em; }
-    .header-meta { font-size: 0.78rem; color: #a0b4cc; }
+    .header-meta { font-size: 0.78rem; color: var(--header-meta); }
+    .header-right { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+    /* ナイトモードトグルボタン */
+    .night-toggle {
+      background: var(--night-btn-bg);
+      color: var(--night-btn-text);
+      border: none;
+      border-radius: 20px;
+      padding: 6px 14px;
+      font-size: 0.82rem;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      transition: background 0.2s, color 0.2s;
+      white-space: nowrap;
+    }
+    .night-toggle:hover { opacity: 0.85; }
+
     .controls {
-      background: white;
+      background: var(--surface);
       padding: 12px 16px;
       display: flex;
       flex-wrap: wrap;
       gap: 10px;
       align-items: center;
-      border-bottom: 1px solid #e0e0e0;
+      border-bottom: 1px solid var(--border);
       position: sticky;
       top: 0;
       z-index: 100;
-      box-shadow: 0 2px 4px rgba(0,0,0,0.08);
+      box-shadow: var(--controls-shadow);
+      transition: background 0.3s, border-color 0.3s;
     }
     .controls input, .controls select {
       padding: 7px 12px;
-      border: 1px solid #ccc;
+      border: 1px solid var(--border);
       border-radius: 6px;
       font-size: 0.85rem;
       outline: none;
-      transition: border-color 0.2s;
+      background: var(--surface);
+      color: var(--text);
+      transition: border-color 0.2s, background 0.3s, color 0.3s;
     }
-    .controls input:focus, .controls select:focus { border-color: #0f3460; }
+    .controls input:focus, .controls select:focus { border-color: var(--primary); }
     .controls input[type="text"] { width: 200px; }
     .controls input[type="number"] { width: 110px; }
-    .controls label { font-size: 0.82rem; color: #666; white-space: nowrap; }
+    .controls label { font-size: 0.82rem; color: var(--text2); white-space: nowrap; }
     .count-badge {
-      background: #0f3460;
+      background: var(--primary);
       color: white;
       padding: 4px 12px;
       border-radius: 20px;
@@ -63,13 +140,14 @@
       margin-left: auto;
     }
     .tabs {
-      background: white;
+      background: var(--surface);
       padding: 0 16px;
       display: flex;
       flex-wrap: wrap;
       gap: 4px;
-      border-bottom: 2px solid #e0e0e0;
+      border-bottom: 2px solid var(--border);
       overflow-x: auto;
+      transition: background 0.3s, border-color 0.3s;
     }
     .tab-btn {
       padding: 10px 14px;
@@ -77,7 +155,7 @@
       background: none;
       cursor: pointer;
       font-size: 0.82rem;
-      color: #666;
+      color: var(--text2);
       border-bottom: 3px solid transparent;
       margin-bottom: -2px;
       white-space: nowrap;
@@ -86,81 +164,91 @@
       align-items: center;
       gap: 4px;
     }
-    .tab-btn:hover { color: #0f3460; background: #f5f8ff; }
-    .tab-btn.active { color: #0f3460; border-bottom-color: #0f3460; font-weight: 700; }
+    .tab-btn:hover { color: var(--primary); background: var(--surface2); }
+    .tab-btn.active { color: var(--primary); border-bottom-color: var(--tab-active-border); font-weight: 700; }
     .tab-btn .tab-count {
-      background: #e8edf5;
-      color: #0f3460;
+      background: var(--primary-light);
+      color: var(--primary);
       padding: 1px 7px;
       border-radius: 10px;
       font-size: 0.75rem;
       margin-left: 4px;
     }
-    .tab-btn.active .tab-count { background: #0f3460; color: white; }
-    /* ラベル編集ボタン */
+    .tab-btn.active .tab-count { background: var(--primary); color: white; }
+
+    /* ラベル編集ボタン（編集モード時は常に表示） */
     .tab-edit-btn {
       display: none;
       background: none;
-      border: none;
+      border: 1px solid var(--border);
       cursor: pointer;
-      padding: 2px 4px;
-      border-radius: 3px;
-      color: #aaa;
-      font-size: 0.7rem;
-      line-height: 1;
+      padding: 2px 6px;
+      border-radius: 4px;
+      color: var(--primary);
+      font-size: 0.75rem;
+      line-height: 1.4;
       transition: color 0.15s, background 0.15s;
+      flex-shrink: 0;
     }
-    .tab-btn:hover .tab-edit-btn { display: inline-block; }
-    .tab-edit-btn:hover { color: #0f3460; background: #e0e8f5; }
+    .tab-edit-btn:hover { background: var(--primary); color: white; }
+    /* 編集モード中は常に表示 */
+    body.edit-mode .tab-edit-btn { display: inline-block; }
+
     /* 編集モーダル */
     .modal-overlay {
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0,0,0,0.45);
+      background: var(--modal-overlay);
       z-index: 1000;
       align-items: center;
       justify-content: center;
     }
     .modal-overlay.show { display: flex; }
     .modal-box {
-      background: white;
+      background: var(--surface);
       border-radius: 12px;
       padding: 28px 32px;
       width: 90%;
       max-width: 440px;
-      box-shadow: 0 8px 32px rgba(0,0,0,0.2);
+      box-shadow: 0 8px 32px rgba(0,0,0,0.3);
+      border: 1px solid var(--border);
     }
-    .modal-box h3 { font-size: 1rem; margin-bottom: 16px; color: #1a1a2e; }
+    .modal-box h3 { font-size: 1rem; margin-bottom: 16px; color: var(--text); }
     .modal-box input[type="text"] {
       width: 100%;
       padding: 10px 14px;
-      border: 1.5px solid #ccc;
+      border: 1.5px solid var(--border);
       border-radius: 8px;
       font-size: 0.95rem;
       outline: none;
       margin-bottom: 18px;
+      background: var(--surface);
+      color: var(--text);
       transition: border-color 0.2s;
     }
-    .modal-box input[type="text"]:focus { border-color: #0f3460; }
+    .modal-box input[type="text"]:focus { border-color: var(--primary); }
     .modal-actions { display: flex; gap: 10px; justify-content: flex-end; }
     .btn { padding: 8px 20px; border-radius: 6px; border: none; cursor: pointer; font-size: 0.88rem; font-weight: 600; transition: opacity 0.2s; }
     .btn:hover { opacity: 0.85; }
-    .btn-primary { background: #0f3460; color: white; }
-    .btn-secondary { background: #e0e0e0; color: #555; }
+    .btn-primary { background: var(--primary); color: white; }
+    .btn-secondary { background: var(--primary-light); color: var(--text2); }
     .btn-danger { background: #c0392b; color: white; }
+
     /* 編集モードバナー */
     .edit-mode-bar {
       display: none;
-      background: #fff8e1;
-      border-bottom: 1px solid #ffe082;
-      padding: 6px 16px;
-      font-size: 0.8rem;
-      color: #795548;
+      background: var(--edit-bar-bg);
+      border-bottom: 1px solid var(--edit-bar-border);
+      padding: 8px 16px;
+      font-size: 0.82rem;
+      color: var(--edit-bar-text);
       align-items: center;
       gap: 10px;
+      flex-wrap: wrap;
     }
     .edit-mode-bar.show { display: flex; }
+
     .main-content {
       padding: 16px;
       max-width: 1600px;
@@ -172,26 +260,27 @@
       gap: 14px;
     }
     .car-card {
-      background: white;
+      background: var(--surface);
       border-radius: 10px;
       overflow: hidden;
-      box-shadow: 0 1px 4px rgba(0,0,0,0.1);
-      transition: transform 0.2s, box-shadow 0.2s;
+      box-shadow: var(--card-shadow);
+      transition: transform 0.2s, box-shadow 0.2s, background 0.3s;
       cursor: pointer;
       text-decoration: none;
       color: inherit;
       display: flex;
       flex-direction: column;
+      border: 1px solid var(--border);
     }
     .car-card:hover {
       transform: translateY(-3px);
-      box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+      box-shadow: var(--card-hover-shadow);
     }
     .car-img-wrap {
       position: relative;
       width: 100%;
       padding-top: 66%;
-      background: #e8ecf0;
+      background: var(--surface2);
       overflow: hidden;
     }
     .car-img-wrap img {
@@ -204,13 +293,13 @@
       position: absolute;
       top: 50%; left: 50%;
       transform: translate(-50%, -50%);
-      color: #aaa;
+      color: var(--text3);
       font-size: 0.8rem;
     }
     .label-badge {
       position: absolute;
       top: 8px; left: 8px;
-      background: rgba(15,52,96,0.85);
+      background: var(--badge-bg);
       color: white;
       padding: 3px 8px;
       border-radius: 4px;
@@ -229,7 +318,7 @@
       font-size: 0.9rem;
       font-weight: 700;
       line-height: 1.3;
-      color: #1a1a2e;
+      color: var(--text);
     }
     .price-row {
       display: flex;
@@ -239,11 +328,11 @@
     .total-price {
       font-size: 1.2rem;
       font-weight: 800;
-      color: #c0392b;
+      color: var(--price-color);
     }
     .base-price {
       font-size: 0.78rem;
-      color: #888;
+      color: var(--text3);
     }
     .specs-grid {
       display: grid;
@@ -252,25 +341,25 @@
       font-size: 0.75rem;
     }
     .spec-item { display: flex; gap: 4px; }
-    .spec-key { color: #888; white-space: nowrap; }
-    .spec-val { color: #333; font-weight: 500; }
+    .spec-key { color: var(--text3); white-space: nowrap; }
+    .spec-val { color: var(--text2); font-weight: 500; }
     .shop-row {
       font-size: 0.75rem;
-      color: #666;
-      border-top: 1px solid #f0f0f0;
+      color: var(--text2);
+      border-top: 1px solid var(--border);
       padding-top: 6px;
       margin-top: auto;
     }
     .loading {
       text-align: center;
       padding: 60px 20px;
-      color: #666;
+      color: var(--text2);
       font-size: 1rem;
     }
     .spinner {
       width: 40px; height: 40px;
-      border: 4px solid #e0e0e0;
-      border-top-color: #0f3460;
+      border: 4px solid var(--border);
+      border-top-color: var(--primary);
       border-radius: 50%;
       animation: spin 0.8s linear infinite;
       margin: 0 auto 16px;
@@ -279,20 +368,20 @@
     .error-msg {
       text-align: center;
       padding: 40px;
-      color: #c0392b;
-      background: #fff5f5;
+      color: var(--price-color);
+      background: var(--surface2);
       border-radius: 8px;
       margin: 20px;
     }
     .no-result {
       text-align: center;
       padding: 40px;
-      color: #888;
+      color: var(--text3);
       grid-column: 1/-1;
     }
     .updated-at {
       font-size: 0.75rem;
-      color: #999;
+      color: var(--text3);
       text-align: right;
       padding: 8px 16px 4px;
     }
@@ -309,14 +398,17 @@
     <h1>カーセンサー 統合検索ビューア</h1>
     <div class="header-meta">11件の検索条件を1ページで確認</div>
   </div>
-  <div class="header-meta" id="updated-info">読み込み中...</div>
+  <div class="header-right">
+    <button class="night-toggle" onclick="toggleNight()" id="night-btn">🌙 ナイトモード</button>
+    <div class="header-meta" id="updated-info">読み込み中...</div>
+  </div>
 </header>
 
 <!-- 編集モードバナー -->
 <div class="edit-mode-bar" id="edit-mode-bar">
-  ✏️ ラベル編集モード：タブ名の横の <strong>✎</strong> ボタンをクリックして名前を変更できます。
+  ✏️ <strong>ラベル編集モード：</strong>各タブの「✎」ボタンをクリックして名前を変更できます。
   <button class="btn btn-secondary" style="margin-left:auto;padding:4px 12px;font-size:0.78rem" onclick="toggleEditMode()">編集モードを終了</button>
-  <button class="btn btn-danger" style="padding:4px 12px;font-size:0.78rem" onclick="resetAllLabels()">リセット</button>
+  <button class="btn btn-danger" style="padding:4px 12px;font-size:0.78rem" onclick="resetAllLabels()">全てリセット</button>
 </div>
 
 <div class="controls">
@@ -325,7 +417,7 @@
   </label>
   <label>価格上限:
     <input type="number" id="price-max" placeholder="例: 500" min="0" step="10">
-    <span style="font-size:0.82rem;color:#666">万円以下</span>
+    <span style="font-size:0.82rem;color:var(--text2)">万円以下</span>
   </label>
   <label>並び替え:
     <select id="sort-select">
@@ -356,7 +448,7 @@
 <!-- ラベル編集モーダル -->
 <div class="modal-overlay" id="label-modal">
   <div class="modal-box">
-    <h3>タブ名を編集</h3>
+    <h3>✏️ タブ名を編集</h3>
     <input type="text" id="label-input" placeholder="新しいタブ名を入力">
     <div class="modal-actions">
       <button class="btn btn-secondary" onclick="closeModal()">キャンセル</button>
@@ -371,31 +463,50 @@
   let editMode = false;
   let editingOriginalLabel = null;
 
-  // ローカルストレージからカスタムラベルを読み込む
+  // ===== ナイトモード =====
+  function initNightMode() {
+    const saved = localStorage.getItem('carsensor_night');
+    if (saved === 'dark') {
+      document.body.classList.add('dark');
+      document.getElementById('night-btn').textContent = '☀️ ライトモード';
+    }
+  }
+
+  function toggleNight() {
+    const isDark = document.body.classList.toggle('dark');
+    const btn = document.getElementById('night-btn');
+    if (isDark) {
+      btn.textContent = '☀️ ライトモード';
+      localStorage.setItem('carsensor_night', 'dark');
+    } else {
+      btn.textContent = '🌙 ナイトモード';
+      localStorage.setItem('carsensor_night', 'light');
+    }
+  }
+
+  // ===== ラベル管理 =====
   function getCustomLabels() {
-    try {
-      return JSON.parse(localStorage.getItem('carsensor_labels') || '{}');
-    } catch(e) { return {}; }
+    try { return JSON.parse(localStorage.getItem('carsensor_labels') || '{}'); }
+    catch(e) { return {}; }
   }
 
   function saveCustomLabels(labels) {
     localStorage.setItem('carsensor_labels', JSON.stringify(labels));
   }
 
-  // 表示ラベルを取得（カスタムがあればカスタムを使用）
   function getDisplayLabel(originalLabel) {
     const customs = getCustomLabels();
     return customs[originalLabel] || originalLabel;
   }
 
-  // 編集モードのON/OFF切り替え
+  // ===== 編集モード =====
   function toggleEditMode() {
     editMode = !editMode;
+    document.body.classList.toggle('edit-mode', editMode);
     document.getElementById('edit-mode-bar').classList.toggle('show', editMode);
     initTabs();
   }
 
-  // 全ラベルをリセット
   function resetAllLabels() {
     if (confirm('全てのタブ名をデフォルトに戻しますか？')) {
       localStorage.removeItem('carsensor_labels');
@@ -404,55 +515,44 @@
     }
   }
 
-  // ラベル編集モーダルを開く
   function openEditModal(originalLabel, event) {
     event.stopPropagation();
     event.preventDefault();
     editingOriginalLabel = originalLabel;
-    const currentLabel = getDisplayLabel(originalLabel);
-    document.getElementById('label-input').value = currentLabel;
+    document.getElementById('label-input').value = getDisplayLabel(originalLabel);
     document.getElementById('label-modal').classList.add('show');
     setTimeout(() => document.getElementById('label-input').focus(), 50);
   }
 
-  // モーダルを閉じる
   function closeModal() {
     document.getElementById('label-modal').classList.remove('show');
     editingOriginalLabel = null;
   }
 
-  // ラベルを保存
   function saveLabel() {
     const newLabel = document.getElementById('label-input').value.trim();
     if (!newLabel) { alert('ラベル名を入力してください'); return; }
     if (!editingOriginalLabel) return;
-
     const customs = getCustomLabels();
     customs[editingOriginalLabel] = newLabel;
     saveCustomLabels(customs);
-
-    // 現在のタブが編集中のラベルなら更新
-    if (currentTab === editingOriginalLabel) {
-      currentTab = editingOriginalLabel; // 内部キーはoriginalのまま
-    }
-
     closeModal();
     initTabs();
     renderCards();
   }
 
-  // Enterキーで保存
-  document.addEventListener('DOMContentLoaded', () => {
-    document.getElementById('label-input').addEventListener('keydown', (e) => {
+  // キーボードショートカット
+  document.addEventListener('keydown', (e) => {
+    if (document.getElementById('label-modal').classList.contains('show')) {
       if (e.key === 'Enter') saveLabel();
       if (e.key === 'Escape') closeModal();
-    });
-    // モーダル外クリックで閉じる
-    document.getElementById('label-modal').addEventListener('click', (e) => {
-      if (e.target === document.getElementById('label-modal')) closeModal();
-    });
+    }
+  });
+  document.getElementById('label-modal').addEventListener('click', (e) => {
+    if (e.target === document.getElementById('label-modal')) closeModal();
   });
 
+  // ===== データ読み込み =====
   async function loadData() {
     try {
       const resp = await fetch('data.json?t=' + Date.now());
@@ -463,7 +563,6 @@
       document.getElementById('loading').style.display = 'none';
       document.getElementById('car-grid').style.display = 'grid';
 
-      // 更新日時表示
       const times = allData.filter(d => d.scraped_at).map(d => d.scraped_at);
       if (times.length > 0) {
         const latest = new Date(Math.max(...times.map(t => new Date(t))));
@@ -483,24 +582,32 @@
     const container = document.getElementById('tabs-container');
     const allCars = allData.flatMap(d => d.cars);
 
+    // 「すべて」タブ（編集ボタンなし）
     let html = `<button class="tab-btn ${currentTab === 'all' ? 'active' : ''}" onclick="switchTab('all', this)">すべて<span class="tab-count">${allCars.length}</span></button>`;
 
     allData.forEach(d => {
       const origLabel = d.label;
       const dispLabel = getDisplayLabel(origLabel);
       const isActive = currentTab === origLabel;
-      const editBtn = editMode
-        ? `<button class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</button>`
-        : '';
-      html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)">${escHtml(dispLabel)}${editBtn}<span class="tab-count">${d.scraped_count}</span></button>`;
+      // 編集ボタンはCSSで制御（edit-modeクラスで表示/非表示）
+      html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)">
+        <span class="tab-label-text">${escHtml(dispLabel)}</span>
+        <button class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</button>
+        <span class="tab-count">${d.scraped_count}</span>
+      </button>`;
     });
     container.innerHTML = html;
   }
 
   function switchTab(label, btn) {
+    // 編集ボタンのクリックはタブ切り替えしない
+    if (btn && btn.classList.contains('tab-edit-btn')) return;
     currentTab = label;
     document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
-    btn.classList.add('active');
+    // 親のtab-btnを探してactiveにする
+    let target = btn;
+    while (target && !target.classList.contains('tab-btn')) target = target.parentElement;
+    if (target) target.classList.add('active');
     renderCards();
   }
 
@@ -558,7 +665,7 @@
   }
 
   function escHtml(s) {
-    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
+    return (s || '').replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;').replace(/'/g,'&#39;');
   }
 
   function renderCards() {
@@ -605,6 +712,8 @@
   document.getElementById('price-max').addEventListener('input', renderCards);
   document.getElementById('sort-select').addEventListener('change', renderCards);
 
+  // 初期化
+  initNightMode();
   loadData();
 </script>
 </body>
