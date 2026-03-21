@@ -588,17 +588,17 @@
     const allCars = allData.flatMap(d => d.cars);
 
     // 「すべて」タブ（編集ボタンなし）
-    let html = `<button class="tab-btn ${currentTab === 'all' ? 'active' : ''}" onclick="switchTab('all', this)">すべて<span class="tab-count">${allCars.length}</span></button>`;
+    let html = `<button class="tab-btn ${currentTab === 'all' ? 'active' : ''}" onclick="switchTab('all', this)" style="display:inline-flex;align-items:center;gap:4px;">すべて<span class="tab-count" style="display:inline-block;background:var(--primary-light);color:var(--primary);padding:2px 6px;border-radius:10px;font-size:0.72rem;font-weight:600;white-space:nowrap;flex-shrink:0;line-height:1.4;">${allCars.length}</span></button>`;
 
     allData.forEach(d => {
       const origLabel = d.label;
       const dispLabel = getDisplayLabel(origLabel);
       const isActive = currentTab === origLabel;
       // 編集ボタンはCSSで制御（edit-modeクラスで表示/非表示）
-      html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)">
+      html += `<button class="tab-btn ${isActive ? 'active' : ''}" onclick="switchTab('${escHtml(origLabel)}', this)" style="display:inline-flex;align-items:center;gap:4px;flex-wrap:nowrap;">
         <span class="tab-label-text">${escHtml(dispLabel)}</span>
         <span class="tab-edit-btn" onclick="openEditModal('${escHtml(origLabel)}', event)" title="ラベルを編集">✎</span>
-        <span class="tab-count">${d.cars.length}</span>
+        <span class="tab-count" style="display:inline-block;background:var(--primary-light);color:var(--primary);padding:2px 6px;border-radius:10px;font-size:0.72rem;font-weight:600;white-space:nowrap;flex-shrink:0;line-height:1.4;">${d.cars.length}</span>
       </button>`;
     });
     container.innerHTML = html;
