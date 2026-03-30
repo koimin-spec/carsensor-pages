@@ -140,7 +140,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:15:22.945345"
+    "scraped_at": "2026-03-30T22:59:55.324477"
   },
   {
     "label": "キャンパー鹿児島",
@@ -1613,7 +1613,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:15:34.071884"
+    "scraped_at": "2026-03-30T23:00:07.834816"
   },
   {
     "label": "キャンピングカー",
@@ -3523,7 +3523,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:15:49.006701"
+    "scraped_at": "2026-03-30T23:00:25.029501"
   },
   {
     "label": "トイファクトリー",
@@ -8492,7 +8492,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:16:19.948159"
+    "scraped_at": "2026-03-30T23:01:00.744112"
   },
   {
     "label": "メルセデス S026",
@@ -13214,7 +13214,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:16:51.136244"
+    "scraped_at": "2026-03-30T23:01:34.515703"
   },
   {
     "label": "ベンツ S560",
@@ -13832,7 +13832,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:16:58.169613"
+    "scraped_at": "2026-03-30T23:01:42.005755"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -18877,7 +18877,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:17:29.292067"
+    "scraped_at": "2026-03-30T23:02:18.681112"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -20635,7 +20635,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:17:40.542678"
+    "scraped_at": "2026-03-30T23:02:32.241738"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -34857,7 +34857,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:19:04.609689"
+    "scraped_at": "2026-03-30T23:04:09.220341"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -36026,6 +36026,25 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU6819905346",
+        "detail_url": "",
+        "title": "Gクラス G63 (ISG) 4WD MP202502 新車保証継承　AMGナイトパッケージ　22インチAMGアルミホイール　マヌファクトゥアプログラム　Brumester3Dサウンド　AMGドライブコントロールスイッチ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/746/014/U00051746014/U00051746014_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2025(R07)",
+        "mileage": "0.8万km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年05月",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツあざみ野サーティファイドカーセンター2024年3月リニューアルオープン！シュテルン世田谷限定企画 実質年率1.9％実施中！",
+        "area": "神奈川県横浜市青葉区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU5867167641",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU5867167641/index.html",
         "title": "Gクラス G63 4WD 1オーナー　カーボン内装　AMGレザーEXC",
@@ -36573,25 +36592,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "Ｃａｒ　Ｃｏｎｃｅｎｔ　Ｃｏｓｔ",
         "area": "福岡県太宰府市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU6819905346",
-        "detail_url": "",
-        "title": "Gクラス G63 (ISG) 4WD MP202502 新車保証継承　AMGナイトパッケージ　22インチAMGアルミホイール　マヌファクトゥアプログラム　Brumester3Dサウンド　AMGドライブコントロールスイッチ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/746/014/U00051746014/U00051746014_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "0.8万km",
-        "repair_history": "なし",
-        "inspection": "2028(R10)年05月",
-        "warranty": "保証付",
-        "displacement": "4000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツあざみ野サーティファイドカーセンター2024年3月リニューアルオープン！シュテルン世田谷限定企画 実質年率1.9％実施中！",
-        "area": "神奈川県横浜市青葉区",
         "color": ""
       },
       {
@@ -39864,7 +39864,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:19:35.198103"
+    "scraped_at": "2026-03-30T23:04:42.419354"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -49849,6 +49849,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-03-30T17:20:35.345914"
+    "scraped_at": "2026-03-30T23:05:48.930609"
   }
 ]
