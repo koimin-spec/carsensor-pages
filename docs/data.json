@@ -159,7 +159,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:04:09.321216"
+    "scraped_at": "2026-04-04T21:57:37.998451"
   },
   {
     "label": "キャンパー鹿児島",
@@ -1708,7 +1708,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:04:21.113545"
+    "scraped_at": "2026-04-04T21:57:50.778190"
   },
   {
     "label": "キャンピングカー",
@@ -3618,7 +3618,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:04:36.078316"
+    "scraped_at": "2026-04-04T21:58:07.376012"
   },
   {
     "label": "トイファクトリー",
@@ -8663,7 +8663,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:05:06.307043"
+    "scraped_at": "2026-04-04T21:58:42.883198"
   },
   {
     "label": "メルセデス S026",
@@ -9680,6 +9680,25 @@
       },
       {
         "search_label": "メルセデス S026",
+        "car_id": "AU6929082812",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6929082812/index.html",
+        "title": "Vクラス V220 d アバンギャルド ロング AMGライン ディーゼルターボ Burmester　黒革　SR　エクスクルーシブPKG　純正ナビ　全方位カメラ　ETC　Bluetooth　フルセグTV　シートヒーター　エアシート　パワーシート　追従クルコン　　BSM",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/355/026/UZ0052355026/UZ0052355026_001L.JPG",
+        "total_price": "410万円",
+        "base_price": "400万円",
+        "year": "2020(R02)",
+        "mileage": "9.5万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年01月",
+        "warranty": "保証付",
+        "displacement": "2200CC",
+        "mission": "コラムMTモード付7AT",
+        "shop_name": "ガリバー 彦根店★お電話、メールのお問い合わせでお車の購入が可能！！お気軽にご相談ください！！★",
+        "area": "滋賀県彦根市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
         "car_id": "AU6899918041",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6899918041/index.html",
         "title": "Vクラス V260 ロング 純正フリップダウンモニター　メモリ付きパワーシート　シートヒーター　7人乗り　3列目シート　本革シート　弊社ユーザー様お下取り車両　ETC　TV　　ドラレコ前後付き　認定中古車保証2年付き スライドドア",
@@ -9817,8 +9836,8 @@
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6926740871/index.html",
         "title": "Vクラス V220 d アバンギャルド エクストラロング ディーゼルターボ ナッパレザーエクスクルーシブPKG　フリップダウンモニター　黒革シート　シートヒーター　シートベンチレーター　パワースライドドア　Burmester　純正ナビTV　レーダーセーフティPKG　禁煙",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/331/727/UZ0052331727/UZ0052331727_001L.JPG",
-        "total_price": "434万円",
-        "base_price": "418万円",
+        "total_price": "438万円",
+        "base_price": "423万円",
         "year": "2016(H28)",
         "mileage": "6.3万km",
         "repair_history": "なし",
@@ -10379,25 +10398,6 @@
         "mission": "コラム7AT",
         "shop_name": "ＪＮグループ",
         "area": "愛知県稲沢市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S026",
-        "car_id": "AU6929082812",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6929082812/index.html",
-        "title": "Vクラス V220 d アバンギャルド ロング AMGライン ディーゼルターボ Burmester　黒革　SR　エクスクルーシブPKG　純正ナビ　全方位カメラ　ETC　Bluetooth　フルセグTV　シートヒーター　エアシート　パワーシート　追従クルコン　　BSM",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/355/026/UZ0052355026/UZ0052355026_001L.JPG",
-        "total_price": "506万円",
-        "base_price": "497万円",
-        "year": "2020(R02)",
-        "mileage": "9.5万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年01月",
-        "warranty": "保証付",
-        "displacement": "2200CC",
-        "mission": "コラムMTモード付7AT",
-        "shop_name": "ガリバー 彦根店★お電話、メールのお問い合わせでお車の購入が可能！！お気軽にご相談ください！！★",
-        "area": "滋賀県彦根市",
         "color": ""
       },
       {
@@ -13461,7 +13461,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:05:37.725987"
+    "scraped_at": "2026-04-04T21:59:17.520803"
   },
   {
     "label": "ベンツ S560",
@@ -14098,7 +14098,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:05:45.194145"
+    "scraped_at": "2026-04-04T21:59:25.234490"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -14549,8 +14549,8 @@
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6888403786/index.html",
         "title": "Sクラス S400 d 4マチック ディーゼルターボ 4WD サンルーフ ベーシックPKG レザーエクスクルーシブPKG レーダーセーフティPKG エアバランスPKG ウォームコンフォートPKG エナジャイジングPKG ナッパレザー ブルメスター3Dサウンド アンビエント シートヒーター",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/111/672/UZ0052111672/UZ0052111672_003L.JPG",
-        "total_price": "726万円",
-        "base_price": "710万円",
+        "total_price": "725万円",
+        "base_price": "715万円",
         "year": "2021(R03)",
         "mileage": "4.1万km",
         "repair_history": "なし",
@@ -19086,7 +19086,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:06:16.674216"
+    "scraped_at": "2026-04-04T21:59:59.451371"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -20958,7 +20958,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:06:31.917334"
+    "scraped_at": "2026-04-04T22:00:15.848008"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -34762,7 +34762,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:07:55.030906"
+    "scraped_at": "2026-04-04T22:01:49.874323"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -35361,21 +35361,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU6907620333",
+        "car_id": "AU6819905346",
         "detail_url": "",
-        "title": "Gクラス G63 4WD エディションマグノホワイト　AMGナイトパッケージ　22インチAMGマットブラックホイール　カーボンインテリア　ナッパレザーシート　Gマニュファクチャープログラム　左ハンドル　弊社ユーザー様お下取り車両",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/211/844/U00052211844/U00052211844_002L.JPG",
+        "title": "Gクラス G63 (ISG) 4WD MP202502 新車保証継承　AMGナイトパッケージ　22インチAMGアルミホイール　マヌファクトゥアプログラム　Brumester3Dサウンド　AMGドライブコントロールスイッチ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/746/014/U00051746014/U00051746014_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.5万km",
+        "year": "2025(R07)",
+        "mileage": "0.8万km",
         "repair_history": "なし",
-        "inspection": "車検整備無",
+        "inspection": "2028(R10)年05月",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
+        "shop_name": "メルセデス・ベンツあざみ野サーティファイドカーセンター2024年3月リニューアルオープン！シュテルン世田谷限定企画 実質年率1.9％実施中！",
+        "area": "神奈川県横浜市青葉区",
         "color": ""
       },
       {
@@ -35950,21 +35950,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU6819905346",
+        "car_id": "AU6907620333",
         "detail_url": "",
-        "title": "Gクラス G63 (ISG) 4WD MP202502 新車保証継承　AMGナイトパッケージ　22インチAMGアルミホイール　マヌファクトゥアプログラム　Brumester3Dサウンド　AMGドライブコントロールスイッチ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/746/014/U00051746014/U00051746014_001L.JPG",
+        "title": "Gクラス G63 4WD エディションマグノホワイト　AMGナイトパッケージ　22インチAMGマットブラックホイール　カーボンインテリア　ナッパレザーシート　Gマニュファクチャープログラム　左ハンドル　弊社ユーザー様お下取り車両",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/211/844/U00052211844/U00052211844_002L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "0.8万km",
+        "year": "2023(R05)",
+        "mileage": "1.5万km",
         "repair_history": "なし",
-        "inspection": "2028(R10)年05月",
+        "inspection": "車検整備無",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツあざみ野サーティファイドカーセンター2024年3月リニューアルオープン！シュテルン世田谷限定企画 実質年率1.9％実施中！",
-        "area": "神奈川県横浜市青葉区",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -39655,7 +39655,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:08:25.120908"
+    "scraped_at": "2026-04-04T22:02:23.554945"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -49317,6 +49317,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-04T15:09:22.291201"
+    "scraped_at": "2026-04-04T22:03:28.300425"
   }
 ]
