@@ -159,7 +159,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:46:12.184001"
+    "scraped_at": "2026-04-25T21:24:14.950294"
   },
   {
     "label": "キャンパー鹿児島",
@@ -1879,7 +1879,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:46:24.655450"
+    "scraped_at": "2026-04-25T21:24:28.676934"
   },
   {
     "label": "キャンピングカー",
@@ -3789,7 +3789,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:46:40.825137"
+    "scraped_at": "2026-04-25T21:24:45.828842"
   },
   {
     "label": "トイファクトリー",
@@ -9271,7 +9271,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:47:18.472455"
+    "scraped_at": "2026-04-25T21:25:25.301001"
   },
   {
     "label": "メルセデス S026",
@@ -14221,7 +14221,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:47:51.308916"
+    "scraped_at": "2026-04-25T21:26:01.766401"
   },
   {
     "label": "ベンツ S560",
@@ -14839,7 +14839,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:47:58.820040"
+    "scraped_at": "2026-04-25T21:26:09.468219"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -19507,7 +19507,7 @@
         "car_id": "VU8999171885",
         "detail_url": "https://www.carsensor.net/usedcar/detail/VU8999171885/index.html",
         "title": "Sクラス S500 4マチック ロング ファースト エディション AMGライン (ISG搭載モデル) 4WD 540台限定　登録済み未使用車　正規D車　　純正ナビ　11・6インチリアエンターテイメントシステム　ワイアレスチャージング　ラグジュアリーヘッドレスト　新車取説　保証書　備品全部有り",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/011/796/U00039011796/U00039011796_001L.JPG",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/011/796/U00039011796/U00039011796_003L.JPG",
         "total_price": "1530万円",
         "base_price": "1490万円",
         "year": "2021(R03)",
@@ -19960,7 +19960,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:48:31.447814"
+    "scraped_at": "2026-04-25T21:26:45.221455"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -21512,7 +21512,7 @@
         "car_id": "VU8999171885",
         "detail_url": "https://www.carsensor.net/usedcar/detail/VU8999171885/index.html",
         "title": "Sクラス S500 4マチック ロング ファースト エディション AMGライン (ISG搭載モデル) 4WD 540台限定　登録済み未使用車　正規D車　　純正ナビ　11・6インチリアエンターテイメントシステム　ワイアレスチャージング　ラグジュアリーヘッドレスト　新車取説　保証書　備品全部有り",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/011/796/U00039011796/U00039011796_001L.JPG",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/011/796/U00039011796/U00039011796_003L.JPG",
         "total_price": "1530万円",
         "base_price": "1490万円",
         "year": "2021(R03)",
@@ -21851,13 +21851,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:48:47.335000"
+    "scraped_at": "2026-04-25T21:27:02.920104"
   },
   {
     "label": "メルセデス S029 (2015〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015",
-    "total_count": "714",
-    "scraped_count": 714,
+    "total_count": "715",
+    "scraped_count": 715,
     "cars": [
       {
         "search_label": "メルセデス S029 (2015〜)",
@@ -22640,6 +22640,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU6972362362",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6972362362/index.html",
+        "title": "Gクラス G350d ロング ディーゼルターボ 4WD ラグジュアリーパッケージ　後期エンジン　+34馬力　AMGワイドフェンダー　チェスナットブラウンレザーシート　ハーマンカードンオーディオ　サンルーフ　バックカメラ　ACC　BSM DVD再生　Bluetooth",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/598/466/UZ0052598466/UZ0052598466_002L.JPG",
+        "total_price": "645万円",
+        "base_price": "625万円",
+        "year": "2016(H28)",
+        "mileage": "7.4万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年12月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "フロアMTモード付7AT",
+        "shop_name": "メルセデス・ベンツ　ゲレンデ専門店　Ｇ　ｃｌａｓｓ【G class】～ジークラス～",
+        "area": "神奈川県横浜市都筑区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6869807094",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6869807094/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD ラグジュアリーパッケージ/黒革/シートヒーター/サンルーフ/ハーマンカードンスピーカー/HDDナビTV/リアカメラ/アクティブクルーズコントロール/ブライントスポットモニター/キセノン/デジタルミラー/ドラレコ",
@@ -23035,25 +23054,6 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "（株）ｃａｎｔｅｒａ ＡＶＩＸ　ＩＭＰＯＲＴ　東大阪店■首都圏エリアを中心に全国１8店舗を展開　■グループ総在庫750台以上",
         "area": "大阪府東大阪市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU6948706097",
-        "detail_url": "",
-        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ローンチエディション/AMGラインエクステリア/ガラススライディングルーフ/Burumesterサラウンドサウンドシステム/20インチアルミホイール/MBUXARナビゲーション/アクティブステアリングアシスト/ドライブレコーダー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/478/984/U00052478984/U00052478984_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2024(R06)",
-        "mileage": "0.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -24103,6 +24103,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU6956590336",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6956590336/index.html",
+        "title": "Gクラス G350d ロング ディーゼルターボ 4WD 4WD 本革シート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/522/954/UZ0052522954/UZ0052522954_001L.JPG",
+        "total_price": "818万円",
+        "base_price": "808万円",
+        "year": "2018(H30)",
+        "mileage": "4.8万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年07月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "フロアMTモード付7AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ岡山【全国納車・オンライン商談可能】屋内展示場も有ります。",
+        "area": "岡山県岡山市北区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6941457935",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6941457935/index.html",
         "title": "Gクラス G350d ヘリテージ エディション ディーゼルターボ 4WD 463台限定色ブルーブラック　スライディングルーフ  本革シート harman/kardonプレミアムサウンド AppleCarPlay　ブラインドスポットアシスト ブラックペイント18インチ5ツインスポークAW",
@@ -24160,21 +24179,21 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU6956590336",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6956590336/index.html",
-        "title": "Gクラス G350d ロング ディーゼルターボ 4WD 4WD 本革シート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/522/954/UZ0052522954/UZ0052522954_001L.JPG",
-        "total_price": "840万円",
-        "base_price": "831万円",
-        "year": "2018(H30)",
-        "mileage": "4.8万km",
+        "car_id": "AU6948706097",
+        "detail_url": "",
+        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ローンチエディション/AMGラインエクステリア/ガラススライディングルーフ/Burumesterサラウンドサウンドシステム/20インチアルミホイール/MBUXARナビゲーション/アクティブステアリングアシスト/ドライブレコーダー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/478/984/U00052478984/U00052478984_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2024(R06)",
+        "mileage": "0.8万km",
         "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
+        "inspection": "車検整備無",
         "warranty": "保証付",
         "displacement": "3000CC",
-        "mission": "フロアMTモード付7AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ岡山【全国納車・オンライン商談可能】屋内展示場も有ります。",
-        "area": "岡山県岡山市北区",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -30848,6 +30867,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU6841977698",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6841977698/index.html",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD ユーザー買取車　マヌファクトゥーアエディション　左ハンドル　ホワイト内装　ベンチレーター　シートヒーター　木目調パネル　木目調ハンドル　禁煙車　サンルーフ　パノラマビューモニター　ナイトパッケージ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/849/456/U00051849456/U00051849456_001L.JPG",
+        "total_price": "1625万円",
+        "base_price": "1610万円",
+        "year": "2021(R03)",
+        "mileage": "5万km",
+        "repair_history": "なし",
+        "inspection": "2026(R08)年06月",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "Ｆ・ＳＴＥＰお客様に寄り添った自動車販売店へ、一歩ずつ前に進めるように。",
+        "area": "大阪府羽曳野市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6910986753",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6910986753/index.html",
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD マニュファクトゥーアED　ナイトパッケージ　レザーエクスクルーシブパッPKG　限定車　ラグジュアリーPKG　ボディ同色スペアリング　ブラバスエアロ プロフェッシュナルブルー　本革巻ウッドステアリング",
@@ -30939,25 +30977,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ロペライオグループ ロペライオさいたま／（株）ロペライオ輸入車を中心に国産車や希少車まで幅広いラインナップよりお車をお選びいただけます",
         "area": "埼玉県戸田市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU6841977698",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6841977698/index.html",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD ユーザー買取車　マヌファクトゥーアエディション　左ハンドル　ホワイト内装　ベンチレーター　シートヒーター　木目調パネル　木目調ハンドル　禁煙車　サンルーフ　パノラマビューモニター　ナイトパッケージ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/849/456/U00051849456/U00051849456_001L.JPG",
-        "total_price": "1645万円",
-        "base_price": "1630万円",
-        "year": "2021(R03)",
-        "mileage": "4.9万km",
-        "repair_history": "なし",
-        "inspection": "2026(R08)年06月",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "Ｆ・ＳＴＥＰお客様に寄り添った自動車販売店へ、一歩ずつ前に進めるように。",
-        "area": "大阪府羽曳野市",
         "color": ""
       },
       {
@@ -35427,7 +35446,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:50:13.685614"
+    "scraped_at": "2026-04-25T21:28:38.750036"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -40605,7 +40624,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:50:49.506404"
+    "scraped_at": "2026-04-25T21:29:19.110520"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -41793,25 +41812,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU6948706097",
-        "detail_url": "",
-        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ローンチエディション/AMGラインエクステリア/ガラススライディングルーフ/Burumesterサラウンドサウンドシステム/20インチアルミホイール/MBUXARナビゲーション/アクティブステアリングアシスト/ドライブレコーダー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/478/984/U00052478984/U00052478984_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2024(R06)",
-        "mileage": "0.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU6969245300",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6969245300/index.html",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリー　AMGライン　アダプティブダンピングシステム　レーダーセーフティ　コマンドシステム　サンルーフ　ブルメスター　DTV　BT　ETC　黒革赤ステッチ　全温席　前メモリ付電動席　純正黒AW",
@@ -42378,6 +42378,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "トップランク 本店クルマは、ただの移動手段ではなく、人生を彩るパートナー",
         "area": "千葉県習志野市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU6948706097",
+        "detail_url": "",
+        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ローンチエディション/AMGラインエクステリア/ガラススライディングルーフ/Burumesterサラウンドサウンドシステム/20インチアルミホイール/MBUXARナビゲーション/アクティブステアリングアシスト/ドライブレコーダー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/478/984/U00052478984/U00052478984_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2024(R06)",
+        "mileage": "0.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -45726,6 +45745,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU6841977698",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6841977698/index.html",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD ユーザー買取車　マヌファクトゥーアエディション　左ハンドル　ホワイト内装　ベンチレーター　シートヒーター　木目調パネル　木目調ハンドル　禁煙車　サンルーフ　パノラマビューモニター　ナイトパッケージ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/849/456/U00051849456/U00051849456_001L.JPG",
+        "total_price": "1625万円",
+        "base_price": "1610万円",
+        "year": "2021(R03)",
+        "mileage": "5万km",
+        "repair_history": "なし",
+        "inspection": "2026(R08)年06月",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "Ｆ・ＳＴＥＰお客様に寄り添った自動車販売店へ、一歩ずつ前に進めるように。",
+        "area": "大阪府羽曳野市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU5918905227",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU5918905227/index.html",
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 1オ-ナ- マヌファクタ-P LUXPKG AMG21AW",
@@ -45817,25 +45855,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "Ｏ－ＲＵＳＨベイサイド大阪【https://www.o-rush.com】から直接お問い合わせいただくと、迅速なご回答が可能です",
         "area": "大阪府大阪市西淀川区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU6841977698",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6841977698/index.html",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD ユーザー買取車　マヌファクトゥーアエディション　左ハンドル　ホワイト内装　ベンチレーター　シートヒーター　木目調パネル　木目調ハンドル　禁煙車　サンルーフ　パノラマビューモニター　ナイトパッケージ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/849/456/U00051849456/U00051849456_001L.JPG",
-        "total_price": "1645万円",
-        "base_price": "1630万円",
-        "year": "2021(R03)",
-        "mileage": "4.9万km",
-        "repair_history": "なし",
-        "inspection": "2026(R08)年06月",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "Ｆ・ＳＴＥＰお客様に寄り添った自動車販売店へ、一歩ずつ前に進めるように。",
-        "area": "大阪府羽曳野市",
         "color": ""
       },
       {
@@ -49887,6 +49906,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-04-25T14:51:51.780458"
+    "scraped_at": "2026-04-25T21:30:22.783822"
   }
 ]
