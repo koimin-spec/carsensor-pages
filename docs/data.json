@@ -235,7 +235,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:06:55.831998"
+    "scraped_at": "2026-05-24T21:42:04.364052"
   },
   {
     "label": "キャンパー鹿児島",
@@ -1898,7 +1898,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:07:09.212302"
+    "scraped_at": "2026-05-24T21:42:17.883642"
   },
   {
     "label": "キャンピングカー",
@@ -3808,7 +3808,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:07:25.117394"
+    "scraped_at": "2026-05-24T21:42:34.541807"
   },
   {
     "label": "トイファクトリー",
@@ -9119,7 +9119,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:08:04.359837"
+    "scraped_at": "2026-05-24T21:43:13.852141"
   },
   {
     "label": "メルセデス S026",
@@ -14107,7 +14107,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:08:41.138170"
+    "scraped_at": "2026-05-24T21:43:50.166009"
   },
   {
     "label": "ベンツ S560",
@@ -14706,7 +14706,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:08:49.482016"
+    "scraped_at": "2026-05-24T21:43:58.477567"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -19067,7 +19067,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:09:21.557422"
+    "scraped_at": "2026-05-24T21:44:30.805083"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -20692,7 +20692,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:09:36.897841"
+    "scraped_at": "2026-05-24T21:44:43.363605"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -34439,7 +34439,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:11:15.646850"
+    "scraped_at": "2026-05-24T21:46:18.874420"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -36425,6 +36425,25 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU7022070540",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7022070540/index.html",
+        "title": "Gクラス G63 4WD AIS6点車両　ワンオーナー　サンルーフ　アダプティブダンピング　シートベンチレーション　ラグジュアリー　オパリスホワイト　スペアキー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/800/063/U00052800063/U00052800063_004L.JPG",
+        "total_price": "2315万円",
+        "base_price": "2298万円",
+        "year": "2024(R06)",
+        "mileage": "0.2万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年02月",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＦＯＵＲＳＩＤＥ“技術と感性で仕立てる”細部に宿る美意識で、人生を彩る唯一無二の一台を。",
+        "area": "京都府京都市北区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU6952470628",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6952470628/index.html",
         "title": "Gクラス G63 4WD Gマヌファクトゥーアプログラムプラス マヌファクトゥーアインテリアプラス ナイトPKG ミスティックブルー プラチナホワイトレザー",
@@ -36592,25 +36611,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ナポレオンオート市場に出回りづらい車を幅広く展示。輸入車から国産車まで扱う総合専門ディーラー。",
         "area": "東京都調布市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7022070540",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7022070540/index.html",
-        "title": "Gクラス G63 4WD AIS6点車両　ワンオーナー　サンルーフ　アダプティブダンピング　シートベンチレーション　ラグジュアリー　オパリスホワイト　スペアキー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/800/063/U00052800063/U00052800063_004L.JPG",
-        "total_price": "2364万円",
-        "base_price": "2348万円",
-        "year": "2024(R06)",
-        "mileage": "0.2万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年02月",
-        "warranty": "保証付",
-        "displacement": "4000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＦＯＵＲＳＩＤＥ“技術と感性で仕立てる”細部に宿る美意識で、人生を彩る唯一無二の一台を。",
-        "area": "京都府京都市北区",
         "color": ""
       },
       {
@@ -39351,7 +39351,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:11:52.909481"
+    "scraped_at": "2026-05-24T21:46:52.999497"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -48595,6 +48595,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-05-24T15:12:59.218625"
+    "scraped_at": "2026-05-24T21:48:00.151692"
   }
 ]
