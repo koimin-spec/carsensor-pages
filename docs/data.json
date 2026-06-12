@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:45:27.052280"
+    "scraped_at": "2026-06-12T22:16:36.379064"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2221,7 +2221,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:45:44.821059"
+    "scraped_at": "2026-06-12T22:16:52.824819"
   },
   {
     "label": "キャンピングカー",
@@ -4131,7 +4131,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:46:01.881878"
+    "scraped_at": "2026-06-12T22:17:09.701627"
   },
   {
     "label": "トイファクトリー",
@@ -9803,7 +9803,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:46:41.208513"
+    "scraped_at": "2026-06-12T22:17:49.420668"
   },
   {
     "label": "メルセデス S026",
@@ -15000,7 +15000,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:47:21.774411"
+    "scraped_at": "2026-06-12T22:18:28.944895"
   },
   {
     "label": "ベンツ S560",
@@ -15542,7 +15542,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:47:27.254347"
+    "scraped_at": "2026-06-12T22:18:34.185071"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -19865,7 +19865,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:47:59.324586"
+    "scraped_at": "2026-06-12T22:19:04.590835"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -21566,7 +21566,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:48:12.172017"
+    "scraped_at": "2026-06-12T22:19:17.388961"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -25604,25 +25604,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7054065344",
-        "detail_url": "",
-        "title": "Gクラス G400d ディーゼルターボ 4WD 弊社ユザー様下取り車　マヌファクトゥーアエディション　ナイトパッケージ2車両　サンルーフ　電動シート　シートヒーター　シートベンチレーター　アンビエントライト　ダイヤモンドステッチ　Burmesterサウンド",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/953/945/U00052953945/U00052953945_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2021(R03)",
-        "mileage": "4万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7022084861",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7022084861/index.html",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ガラスSルーフ/Burmesterサラウンド/本革シート/レッドシートベルト/スポーツステアリング/20インチAMGホイール",
@@ -28469,6 +28450,25 @@
         "mission": "コラム9AT",
         "shop_name": "ＪＡＮ　ＳＰＯＲＴＳ（ジャンスポーツ）",
         "area": "大阪府池田市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7054065344",
+        "detail_url": "",
+        "title": "Gクラス G400d ディーゼルターボ 4WD 弊社ユザー様下取り車　マヌファクトゥーアエディション　ナイトパッケージ2車両　サンルーフ　電動シート　シートヒーター　シートベンチレーター　アンビエントライト　ダイヤモンドステッチ　Burmesterサウンド",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/953/945/U00052953945/U00052953945_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2021(R03)",
+        "mileage": "4万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -35370,7 +35370,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:49:48.436367"
+    "scraped_at": "2026-06-12T22:20:51.237853"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -40339,7 +40339,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:50:22.630298"
+    "scraped_at": "2026-06-12T22:21:24.529202"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -40938,14 +40938,14 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7073229649",
+        "car_id": "AU7054065344",
         "detail_url": "",
-        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD リラクゼーション機能/チタニウムグレー本革/メモリ付きパワーシート/シートヒーター・ベンチレーター/アンビエントライト/全方位カメラ/ETC/ドライブレコーダー/ヘッドアップディスプレイ/新車保証継承",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/048/044/U00053048044/U00053048044_002L.JPG",
+        "title": "Gクラス G400d ディーゼルターボ 4WD 弊社ユザー様下取り車　マヌファクトゥーアエディション　ナイトパッケージ2車両　サンルーフ　電動シート　シートヒーター　シートベンチレーター　アンビエントライト　ダイヤモンドステッチ　Burmesterサウンド",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/953/945/U00052953945/U00052953945_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2024(R06)",
-        "mileage": "1万km",
+        "year": "2021(R03)",
+        "mileage": "4万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証付",
@@ -42093,6 +42093,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "アブロ　名古屋.世界に一台のこだわり車を屋内展示。　完　全予約制プライベート空間でご案内。",
         "area": "愛知県名古屋市天白区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7073229649",
+        "detail_url": "",
+        "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD リラクゼーション機能/チタニウムグレー本革/メモリ付きパワーシート/シートヒーター・ベンチレーター/アンビエントライト/全方位カメラ/ETC/ドライブレコーダー/ヘッドアップディスプレイ/新車保証継承",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/048/044/U00053048044/U00053048044_002L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2024(R06)",
+        "mileage": "1万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -45247,25 +45266,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "Ｏ－ＲＵＳＨベイサイド大阪【https://www.o-rush.com】から直接お問い合わせいただくと、迅速なご回答が可能です",
         "area": "大阪府大阪市西淀川区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7054065344",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7054065344/index.html",
-        "title": "Gクラス G400d ディーゼルターボ 4WD 弊社ユザー様下取り車　マヌファクトゥーアエディション　ナイトパッケージ2車両　サンルーフ　電動シート　シートヒーター　シートベンチレーター　アンビエントライト　ダイヤモンドステッチ　Burmesterサウンド",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/953/945/U00052953945/U00052953945_001L.JPG",
-        "total_price": "1646万円",
-        "base_price": "1628万円",
-        "year": "2021(R03)",
-        "mileage": "4万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年12月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -49469,6 +49469,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-12T16:51:24.728480"
+    "scraped_at": "2026-06-12T22:22:25.315350"
   }
 ]
