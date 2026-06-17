@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:55:13.438959"
+    "scraped_at": "2026-06-17T22:27:27.154982"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2164,7 +2164,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:55:27.789868"
+    "scraped_at": "2026-06-17T22:27:44.173155"
   },
   {
     "label": "キャンピングカー",
@@ -4074,7 +4074,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:55:42.835961"
+    "scraped_at": "2026-06-17T22:28:00.139624"
   },
   {
     "label": "トイファクトリー",
@@ -9670,7 +9670,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:56:17.525778"
+    "scraped_at": "2026-06-17T22:28:39.315860"
   },
   {
     "label": "メルセデス S026",
@@ -10858,6 +10858,25 @@
       },
       {
         "search_label": "メルセデス S026",
+        "car_id": "AU7091370433",
+        "detail_url": "",
+        "title": "Vクラス V220 d アバンギャルド ロング AMGラインパッケージ ディーゼルターボ 3列シート/両面電動スライドドア/本革シート/ルーフレール/アンビエントライト/メモリー付きパワーシート/シートヒーター/Apple　Car　Play/電動リアゲート/スポーツペダル/認定中古車保証",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/136/146/U00053136146/U00053136146_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2023(R05)",
+        "mileage": "1.5万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "2000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ八王子サーティファイドカーセンター☆☆メルセデス認定中古車アーリーサマーフェア開催中☆☆",
+        "area": "東京都八王子市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
         "car_id": "AU6938531182",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6938531182/index.html",
         "title": "Vクラス V220 d アバンギャルド ロング AMGライン ディーゼルターボ Bluetooth対応ナビTV　リアエンター　レーダーセーフティ　ブルメスターサウンド　前後ドラレコ　デジタルインナーミラー　パノラミックスライディングルーフ　本革シート　後期型　　鑑定書付き",
@@ -11994,25 +12013,6 @@
         "mission": "コラムMTモード付7AT",
         "shop_name": "アースジャパン つくば店大型展示場の中からお客様のニーズに合ったお車をご紹介させて頂きます！",
         "area": "茨城県つくば市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S026",
-        "car_id": "AU7091370433",
-        "detail_url": "",
-        "title": "Vクラス V220 d アバンギャルド ロング AMGラインパッケージ ディーゼルターボ 3列シート/両面電動スライドドア/本革シート/ルーフレール/アンビエントライト/メモリー付きパワーシート/シートヒーター/Apple　Car　Play/電動リアゲート/スポーツペダル/認定中古車保証",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/136/146/U00053136146/U00053136146_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.5万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "2000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ八王子サーティファイドカーセンター☆☆メルセデス認定中古車アーリーサマーフェア開催中☆☆",
-        "area": "東京都八王子市",
         "color": ""
       },
       {
@@ -14905,7 +14905,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:56:53.223247"
+    "scraped_at": "2026-06-17T22:29:19.391535"
   },
   {
     "label": "ベンツ S560",
@@ -15523,7 +15523,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:57:01.244799"
+    "scraped_at": "2026-06-17T22:29:27.127358"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -19979,7 +19979,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:57:31.712160"
+    "scraped_at": "2026-06-17T22:30:00.273269"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -21661,7 +21661,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:57:43.218478"
+    "scraped_at": "2026-06-17T22:30:13.763638"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -35237,7 +35237,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:59:05.738501"
+    "scraped_at": "2026-06-17T22:31:48.912892"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -35836,14 +35836,14 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU6989443070",
+        "car_id": "AU7088901860",
         "detail_url": "",
-        "title": "Gクラス G63 (ISG) 4WD MP202502 ヒヤシンスレッドマグノ(AMGオーダー)/Manufakturインテリアプラスパッケージ2トーン黒赤レザー/Manufakturプログラム・プラス/22インチアルミホイール/AMGナイトパッケージ/純正ドライブレコーダー前後",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/692/571/U00052692571/U00052692571_001L.JPG",
+        "title": "Gクラス G63 4WD G63Special order/AMG Night package/マヌファクトゥーアプログラム/22インチ マットブラックホイール/ガラススライディングルーフ/アンビエントライト64色/360度カメラ/ブルメスターサウンドシステム/本革シート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/128/451/U00053128451/U00053128451_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "1.6万km",
+        "year": "2023(R05)",
+        "mileage": "1.7万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証付",
@@ -36425,25 +36425,6 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7088901860",
-        "detail_url": "",
-        "title": "Gクラス G63 4WD G63Special order/AMG Night package/マヌファクトゥーアプログラム/22インチ マットブラックホイール/ガラススライディングルーフ/アンビエントライト64色/360度カメラ/ブルメスターサウンドシステム/本革シート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/128/451/U00053128451/U00053128451_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.7万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "4000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU6929420473",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6929420473/index.html",
         "title": "Gクラス G63 4WD マヌファクトゥーアプログラム　オパリスホワイト　純正AMG21インチAW　ブルメスターサウンド　レーダーセーフティ　ACC　純正ナビフルセグ360°カメラ　サンルーフ　ドラレコ　レーダー　デジタルインナーミラー",
@@ -37010,6 +36991,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "Ｄｕｔｔｏｎ　Ｏｎｅ　横浜港北総合商社・双日が運営する豪州最大のプレミアムカーディーラーが横浜港北に上陸！",
         "area": "神奈川県横浜市都筑区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU6989443070",
+        "detail_url": "",
+        "title": "Gクラス G63 (ISG) 4WD MP202502 ヒヤシンスレッドマグノ(AMGオーダー)/Manufakturインテリアプラスパッケージ2トーン黒赤レザー/Manufakturプログラム・プラス/22インチアルミホイール/AMGナイトパッケージ/純正ドライブレコーダー前後",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/692/571/U00052692571/U00052692571_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2025(R07)",
+        "mileage": "1.6万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -40263,7 +40263,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T16:59:36.276476"
+    "scraped_at": "2026-06-17T22:32:26.301230"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -49051,6 +49051,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-17T17:00:31.478596"
+    "scraped_at": "2026-06-17T22:33:30.396430"
   }
 ]
