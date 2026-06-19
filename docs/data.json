@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:32:23.363411"
+    "scraped_at": "2026-06-19T21:56:01.000074"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2107,7 +2107,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:32:40.396778"
+    "scraped_at": "2026-06-19T21:56:17.248814"
   },
   {
     "label": "キャンピングカー",
@@ -4017,7 +4017,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:32:57.669797"
+    "scraped_at": "2026-06-19T21:56:34.161001"
   },
   {
     "label": "トイファクトリー",
@@ -9575,7 +9575,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:33:37.379577"
+    "scraped_at": "2026-06-19T21:57:13.402559"
   },
   {
     "label": "メルセデス S026",
@@ -15114,7 +15114,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:34:19.829192"
+    "scraped_at": "2026-06-19T21:57:53.166851"
   },
   {
     "label": "ベンツ S560",
@@ -15694,7 +15694,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:34:24.408829"
+    "scraped_at": "2026-06-19T21:57:57.793616"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -20112,7 +20112,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:34:56.973903"
+    "scraped_at": "2026-06-19T21:58:31.231781"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -21737,7 +21737,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:35:10.074298"
+    "scraped_at": "2026-06-19T21:58:45.263613"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -35408,7 +35408,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:36:43.698500"
+    "scraped_at": "2026-06-19T22:00:21.226026"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -36007,14 +36007,14 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU6989443070",
+        "car_id": "AU7088901860",
         "detail_url": "",
-        "title": "Gクラス G63 (ISG) 4WD MP202502 ヒヤシンスレッドマグノ(AMGオーダー)/Manufakturインテリアプラスパッケージ2トーン黒赤レザー/Manufakturプログラム・プラス/22インチアルミホイール/AMGナイトパッケージ/純正ドライブレコーダー前後",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/692/571/U00052692571/U00052692571_001L.JPG",
+        "title": "Gクラス G63 4WD G63Special order/AMG Night package/マヌファクトゥーアプログラム/22インチ マットブラックホイール/ガラススライディングルーフ/アンビエントライト64色/360度カメラ/ブルメスターサウンドシステム/本革シート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/128/451/U00053128451/U00053128451_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "1.6万km",
+        "year": "2023(R05)",
+        "mileage": "1.7万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証付",
@@ -37162,25 +37162,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "アークギャラリー千葉北ショールーム高級輸入車を中心に、メーカー保証付きの優良車両を取り揃えております。",
         "area": "千葉県千葉市稲毛区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7088901860",
-        "detail_url": "",
-        "title": "Gクラス G63 4WD G63Special order/AMG Night package/マヌファクトゥーアプログラム/22インチ マットブラックホイール/ガラススライディングルーフ/アンビエントライト64色/360度カメラ/ブルメスターサウンドシステム/本革シート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/128/451/U00053128451/U00053128451_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.7万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "4000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -39484,6 +39465,25 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU6989443070",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6989443070/index.html",
+        "title": "Gクラス G63 (ISG) 4WD MP202502 ヒヤシンスレッドマグノ(AMGオーダー)/Manufakturインテリアプラスパッケージ2トーン黒赤レザー/Manufakturプログラム・プラス/22インチアルミホイール/AMGナイトパッケージ/純正ドライブレコーダー前後",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/692/571/U00052692571/U00052692571_001L.JPG",
+        "total_price": "3307万円",
+        "base_price": "3288万円",
+        "year": "2025(R07)",
+        "mileage": "1.6万km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年05月",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU6439169362",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6439169362/index.html",
         "title": "Gクラス G63 グランド エディション 4WD",
@@ -40263,7 +40263,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:37:18.916888"
+    "scraped_at": "2026-06-19T22:00:56.715056"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -49089,6 +49089,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-06-19T16:38:23.852435"
+    "scraped_at": "2026-06-19T22:01:58.199238"
   }
 ]
