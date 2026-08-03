@@ -216,7 +216,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:27:34.304914"
+    "scraped_at": "2026-08-03T21:54:12.851782"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2297,7 +2297,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:27:50.546957"
+    "scraped_at": "2026-08-03T21:54:29.299899"
   },
   {
     "label": "キャンピングカー",
@@ -4207,7 +4207,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:28:06.658515"
+    "scraped_at": "2026-08-03T21:54:45.620012"
   },
   {
     "label": "トイファクトリー",
@@ -10183,7 +10183,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:28:48.128681"
+    "scraped_at": "2026-08-03T21:55:27.434737"
   },
   {
     "label": "メルセデス S026",
@@ -15855,7 +15855,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:29:28.213411"
+    "scraped_at": "2026-08-03T21:56:07.198467"
   },
   {
     "label": "ベンツ S560",
@@ -16625,7 +16625,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:29:36.222184"
+    "scraped_at": "2026-08-03T21:56:14.790369"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21670,7 +21670,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:30:12.260022"
+    "scraped_at": "2026-08-03T21:56:49.805086"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23599,7 +23599,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:30:28.752254"
+    "scraped_at": "2026-08-03T21:57:06.251990"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -38467,7 +38467,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:32:15.138278"
+    "scraped_at": "2026-08-03T21:58:50.958672"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -39636,21 +39636,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7148587898",
+        "car_id": "AU7186088963",
         "detail_url": "",
-        "title": "Gクラス G63 4WD マヌファクトゥーアプログラム　21インチアルミホイール　リラクゼーション機能　ナッパレザーシート　エナジャイジングパッケージ　360度カメラ　ブルメスター　シートベンチレーター　認定中古車保証2年",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/390/373/U00053390373/U00053390373_001L.JPG",
+        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
         "total_price": "---",
         "base_price": "---",
         "year": "2022(R04)",
-        "mileage": "1万km",
+        "mileage": "3.1万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
-        "warranty": "保証無",
+        "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -40073,21 +40073,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7186088963",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7186088963/index.html",
-        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
-        "total_price": "2321万円",
+        "car_id": "AU7148587898",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7148587898/index.html",
+        "title": "Gクラス G63 4WD マヌファクトゥーアプログラム　21インチアルミホイール　リラクゼーション機能　ナッパレザーシート　エナジャイジングパッケージ　360度カメラ　ブルメスター　シートベンチレーター　認定中古車保証2年",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/390/373/U00053390373/U00053390373_001L.JPG",
+        "total_price": "2315万円",
         "base_price": "2298万円",
         "year": "2022(R04)",
-        "mileage": "3.1万km",
+        "mileage": "1万km",
         "repair_history": "なし",
-        "inspection": "2027(R09)年09月",
+        "inspection": "2027(R09)年08月",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -42676,7 +42676,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:32:47.170827"
+    "scraped_at": "2026-08-03T21:59:21.552848"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -52338,6 +52338,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-03T16:33:51.358603"
+    "scraped_at": "2026-08-03T22:00:26.774800"
   }
 ]
