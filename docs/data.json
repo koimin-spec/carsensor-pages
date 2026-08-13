@@ -216,7 +216,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T14:59:21.454225"
+    "scraped_at": "2026-08-13T21:31:25.157298"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2278,7 +2278,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T14:59:37.900403"
+    "scraped_at": "2026-08-13T21:31:41.958764"
   },
   {
     "label": "キャンピングカー",
@@ -4188,13 +4188,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T14:59:54.058498"
+    "scraped_at": "2026-08-13T21:31:59.025902"
   },
   {
     "label": "トイファクトリー",
     "url": "https://www.carsensor.net/usedcar/freeword/%E3%83%88%E3%82%A4%E3%83%95%E3%82%A1%E3%82%AF%E3%83%88%E3%83%AA%E3%83%BC/index.html?SORT=2",
-    "total_count": "315",
-    "scraped_count": 315,
+    "total_count": "319",
+    "scraped_count": 319,
     "cars": [
       {
         "search_label": "トイファクトリー",
@@ -9233,6 +9233,25 @@
       },
       {
         "search_label": "トイファクトリー",
+        "car_id": "AU7238031340",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238031340/index.html",
+        "title": "ハイエースバン ハイエース BADEN 登録済未使用車・トイファクトリー・家庭用エアコン・シンク・FFヒーター・クーラーボックス型冷蔵庫・デジタルインナーミラー・ACコンセント・マックスファン・ソーラーパネル",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/796/183/UT0053796183/UT0053796183_001L.JPG",
+        "total_price": "1175万円",
+        "base_price": "1163万円",
+        "year": "2026(R08)",
+        "mileage": "102km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年06月",
+        "warranty": "保証付",
+        "displacement": "2700CC",
+        "mission": "フロア6AT",
+        "shop_name": "ウエインズトヨタ神奈川 Ｕ－ＢＡＳＥ相模U-BASE相模は、津久井湖・相模湖にアプローチするU-BASEの前線基地です",
+        "area": "神奈川県相模原市緑区",
+        "color": ""
+      },
+      {
+        "search_label": "トイファクトリー",
         "car_id": "AU7231891016",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7231891016/index.html",
         "title": "ハイエースバン トイファクトリー製バーデングランデ 家庭用エアコン　FFヒーター　1500Wインバーター　2サブバッテリー　走行充電　外部充電&電源　シンク　コンロ　レンジ　冷蔵庫　MAXFAN　リアTV　サイドオーニング　エアロソーラー　ナビ　Bカメラ　電動スライド",
@@ -9290,6 +9309,25 @@
       },
       {
         "search_label": "トイファクトリー",
+        "car_id": "AU7238031499",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238031499/index.html",
+        "title": "ハイエース BADEN ディーゼル ハイエース BADEN ディーゼル 登録済未使用車・トイファクトリー・家庭用エアコン・シンク・FFヒーター・クーラーボックス型冷蔵庫・デジタルインナーミラー・ACコンセント・マックスファン・ソーラーパネル",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/796/163/UT0053796163/UT0053796163_001L.JPG",
+        "total_price": "1195万円",
+        "base_price": "1183万円",
+        "year": "2026(R08)",
+        "mileage": "64km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年07月",
+        "warranty": "保証付",
+        "displacement": "2800CC",
+        "mission": "フロア6AT",
+        "shop_name": "ウエインズトヨタ神奈川 Ｕ－ＢＡＳＥ相模U-BASE相模は、津久井湖・相模湖にアプローチするU-BASEの前線基地です",
+        "area": "神奈川県相模原市緑区",
+        "color": ""
+      },
+      {
+        "search_label": "トイファクトリー",
         "car_id": "AU7231892560",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7231892560/index.html",
         "title": "リエッセII ビックバンベース　ルート6製キャンピング 家庭用エアコン　FFヒーター　200Ahリチウム　3000Wインバーター　ボイラー　電子レンジ　冷蔵庫　ルーフベント　走行充電　外部充電&電源　オーニング　バックカメラ　ワンオーナー　リア観音ドア　2段ベッド",
@@ -9305,6 +9343,44 @@
         "mission": "フロア6AT",
         "shop_name": "Ｃａｒ　Ｓａｌｅｓ　ｙａｃｃｏ 守谷本店　キャンピングカー買取・専門店あなたの理想のキャンピングカーライフを、Yaccoが全力サポート！",
         "area": "茨城県守谷市",
+        "color": ""
+      },
+      {
+        "search_label": "トイファクトリー",
+        "car_id": "AU7238032422",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238032422/index.html",
+        "title": "ハイエース BADEN ディーゼル ハイエース BADEN ディーゼル 登録済未使用車・トイファクトリー・家庭用エアコン・シンク・FFヒーター・クーラーボックス型冷蔵庫・デジタルインナーミラー・ACコンセント・マックスファン・ソーラーパネル",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/796/174/UT0053796174/UT0053796174_001L.JPG",
+        "total_price": "1206万円",
+        "base_price": "1195万円",
+        "year": "2026(R08)",
+        "mileage": "58km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年08月",
+        "warranty": "保証付",
+        "displacement": "2800CC",
+        "mission": "フロア6AT",
+        "shop_name": "ウエインズトヨタ神奈川 Ｕ－ＢＡＳＥ相模U-BASE相模は、津久井湖・相模湖にアプローチするU-BASEの前線基地です",
+        "area": "神奈川県相模原市緑区",
+        "color": ""
+      },
+      {
+        "search_label": "トイファクトリー",
+        "car_id": "AU7238031627",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238031627/index.html",
+        "title": "ハイエース BADEN ディーゼル ハイエース BADEN ディーゼル 登録済未使用車・トイファクトリー・家庭用エアコン・シンク・FFヒーター・クーラーボックス型冷蔵庫・デジタルインナーミラー・ACコンセント・マックスファン・ソーラーパネル",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/796/178/UT0053796178/UT0053796178_001L.JPG",
+        "total_price": "1206万円",
+        "base_price": "1195万円",
+        "year": "2026(R08)",
+        "mileage": "88km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年08月",
+        "warranty": "保証付",
+        "displacement": "2800CC",
+        "mission": "フロア6AT",
+        "shop_name": "ウエインズトヨタ神奈川 Ｕ－ＢＡＳＥ相模U-BASE相模は、津久井湖・相模湖にアプローチするU-BASEの前線基地です",
+        "area": "神奈川県相模原市緑区",
         "color": ""
       },
       {
@@ -10183,7 +10259,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:00:36.040451"
+    "scraped_at": "2026-08-13T21:32:41.478585"
   },
   {
     "label": "メルセデス S026",
@@ -11371,6 +11447,25 @@
       },
       {
         "search_label": "メルセデス S026",
+        "car_id": "AU7188184063",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7188184063/index.html",
+        "title": "Vクラス V220 d アバンギャルド ディーゼルターボ レーダーセーフティPKG 純正ナビ TV 全方位カメラ フリップダウンモニター 黒革 シートヒーター パワーシート 両側パワースライドドア パワーバックドア 18インチAW デジタルインナーミラー型ドラレコ ワンオーナー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/562/459/UZ0053562459/UZ0053562459_003L.JPG",
+        "total_price": "392万円",
+        "base_price": "384万円",
+        "year": "2021(R03)",
+        "mileage": "7.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備付",
+        "warranty": "保証付",
+        "displacement": "2200CC",
+        "mission": "コラムMTモード付7AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "宮城県仙台市太白区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
         "car_id": "AU7161291806",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7161291806/index.html",
         "title": "Vクラス V220 d アバンギャルド ロング ディーゼルターボ 本革シート　Burmesterサラウンド　360°カメラ　デュアルパワースライドドア　ドラレコ　パワーシート　シートヒーター　レーダーセーフティパッケージ　18インチアルミ　LEDヘッドライト",
@@ -11424,25 +11519,6 @@
         "mission": "コラム7AT",
         "shop_name": "ユニバース　堺東証プライム市場上場、正規輸入車ディーラー運営、グループ輸入車総在庫2,000台以上",
         "area": "大阪府堺市堺区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S026",
-        "car_id": "AU7188184063",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7188184063/index.html",
-        "title": "Vクラス V220 d アバンギャルド ディーゼルターボ レーダーセーフティPKG 純正ナビ TV 全方位カメラ フリップダウンモニター 黒革 シートヒーター パワーシート 両側パワースライドドア パワーバックドア 18インチAW デジタルインナーミラー型ドラレコ ワンオーナー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/562/459/UZ0053562459/UZ0053562459_003L.JPG",
-        "total_price": "399万円",
-        "base_price": "391万円",
-        "year": "2021(R03)",
-        "mileage": "7.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証付",
-        "displacement": "2200CC",
-        "mission": "コラムMTモード付7AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "宮城県仙台市太白区",
         "color": ""
       },
       {
@@ -15950,7 +16026,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:01:19.242865"
+    "scraped_at": "2026-08-13T21:33:23.209129"
   },
   {
     "label": "ベンツ S560",
@@ -16739,7 +16815,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:01:27.041515"
+    "scraped_at": "2026-08-13T21:33:30.970526"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21803,7 +21879,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:02:02.790913"
+    "scraped_at": "2026-08-13T21:34:06.099628"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23751,7 +23827,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:02:19.196735"
+    "scraped_at": "2026-08-13T21:34:22.489403"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -29917,6 +29993,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7238201917",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238201917/index.html",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD Gmanufakturプログラム ラグジュアリーPKG レーダーセーフティPKG アダプティブダンピングシステム アンビエントライト サンルーフ 全方位カメラ 黒革 ベンチレーション シートヒーター パワーシート パドルシフト",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/799/047/UZ0053799047/UZ0053799047_002L.JPG",
+        "total_price": "1299万円",
+        "base_price": "1292万円",
+        "year": "2022(R04)",
+        "mileage": "3.9万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年07月",
+        "warranty": "保証付",
+        "displacement": "2900CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "宮城県仙台市太白区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6709986876",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6709986876/index.html",
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD マヌファクトゥーアプログラム　ボディ同色スペアタイヤリング　アダプティブダンピング　黒革　シートヒーター　シートクーラー　SR　ナビ　TV　Burmester　ETC　360°カメラ　コーナーセンサー　前後ドラレコ",
@@ -29989,25 +30084,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ガルウィング保証・法定整備・ＡＩＳ評価付車両を内外装まで徹底整備し自信を持ってお届けします",
         "area": "愛媛県今治市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7238201917",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238201917/index.html",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD Gmanufakturプログラム ラグジュアリーPKG レーダーセーフティPKG アダプティブダンピングシステム アンビエントライト サンルーフ 全方位カメラ 黒革 ベンチレーション シートヒーター パワーシート パドルシフト",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/799/047/UZ0053799047/UZ0053799047_002L.JPG",
-        "total_price": "1309万円",
-        "base_price": "1301万円",
-        "year": "2022(R04)",
-        "mileage": "3.9万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "宮城県仙台市太白区",
         "color": ""
       },
       {
@@ -38942,7 +39018,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:04:04.060202"
+    "scraped_at": "2026-08-13T21:36:03.561221"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -39522,21 +39598,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7186088963",
+        "car_id": "AU7148587898",
         "detail_url": "",
-        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
+        "title": "Gクラス G63 4WD マヌファクトゥーアプログラム　21インチアルミホイール　リラクゼーション機能　ナッパレザーシート　エナジャイジングパッケージ　360度カメラ　ブルメスター　シートベンチレーター　認定中古車保証2年",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/390/373/U00053390373/U00053390373_001L.JPG",
         "total_price": "---",
         "base_price": "---",
         "year": "2022(R04)",
-        "mileage": "3.1万km",
+        "mileage": "1万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
-        "warranty": "保証付",
+        "warranty": "保証無",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -40643,21 +40719,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7148587898",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7148587898/index.html",
-        "title": "Gクラス G63 4WD マヌファクトゥーアプログラム　21インチアルミホイール　リラクゼーション機能　ナッパレザーシート　エナジャイジングパッケージ　360度カメラ　ブルメスター　シートベンチレーター　認定中古車保証2年",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/390/373/U00053390373/U00053390373_001L.JPG",
-        "total_price": "2315万円",
+        "car_id": "AU7186088963",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7186088963/index.html",
+        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
+        "total_price": "2321万円",
         "base_price": "2298万円",
         "year": "2022(R04)",
-        "mileage": "1万km",
+        "mileage": "3.1万km",
         "repair_history": "なし",
-        "inspection": "2027(R09)年08月",
+        "inspection": "2027(R09)年09月",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -43303,7 +43379,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:04:35.370536"
+    "scraped_at": "2026-08-13T21:36:36.521217"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -44795,6 +44871,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7238201917",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238201917/index.html",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD Gmanufakturプログラム ラグジュアリーPKG レーダーセーフティPKG アダプティブダンピングシステム アンビエントライト サンルーフ 全方位カメラ 黒革 ベンチレーション シートヒーター パワーシート パドルシフト",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/799/047/UZ0053799047/UZ0053799047_002L.JPG",
+        "total_price": "1299万円",
+        "base_price": "1292万円",
+        "year": "2022(R04)",
+        "mileage": "3.9万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年07月",
+        "warranty": "保証付",
+        "displacement": "2900CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "宮城県仙台市太白区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7139281143",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7139281143/index.html",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　シートヒーター　パワーシート　トランクスルー　フロアマット　コネクテッド機能　ナビ　音楽プレーヤー接続　Bluetooth接続　TV　ETC　サンルーフ・ガラスルーフ",
@@ -44905,25 +45000,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ水戸　けやき台サーティファイドカーセンター安心と信頼のメルセデス・ベンツ正規認定中古車を！！",
         "area": "茨城県水戸市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7238201917",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7238201917/index.html",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD Gmanufakturプログラム ラグジュアリーPKG レーダーセーフティPKG アダプティブダンピングシステム アンビエントライト サンルーフ 全方位カメラ 黒革 ベンチレーション シートヒーター パワーシート パドルシフト",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/799/047/UZ0053799047/UZ0053799047_002L.JPG",
-        "total_price": "1309万円",
-        "base_price": "1301万円",
-        "year": "2022(R04)",
-        "mileage": "3.9万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "宮城県仙台市太白区",
         "color": ""
       },
       {
@@ -53098,6 +53174,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-13T15:05:44.231415"
+    "scraped_at": "2026-08-13T21:37:45.567655"
   }
 ]
