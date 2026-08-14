@@ -216,7 +216,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:39:32.827733"
+    "scraped_at": "2026-08-14T09:53:13.068807"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2278,7 +2278,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:39:47.019725"
+    "scraped_at": "2026-08-14T09:53:27.897508"
   },
   {
     "label": "キャンピングカー",
@@ -4188,7 +4188,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:40:01.430202"
+    "scraped_at": "2026-08-14T09:53:43.631113"
   },
   {
     "label": "トイファクトリー",
@@ -10259,7 +10259,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:40:37.174148"
+    "scraped_at": "2026-08-14T09:54:21.953714"
   },
   {
     "label": "メルセデス S026",
@@ -16026,7 +16026,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:41:13.749030"
+    "scraped_at": "2026-08-14T09:55:00.808048"
   },
   {
     "label": "ベンツ S560",
@@ -16815,7 +16815,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:41:20.674589"
+    "scraped_at": "2026-08-14T09:55:07.984257"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21898,7 +21898,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:41:51.550210"
+    "scraped_at": "2026-08-14T09:55:39.759309"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23846,13 +23846,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:42:06.058559"
+    "scraped_at": "2026-08-14T09:55:54.890931"
   },
   {
     "label": "メルセデス S029 (2015〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015",
-    "total_count": "798",
-    "scraped_count": 798,
+    "total_count": "800",
+    "scraped_count": 800,
     "cars": [
       {
         "search_label": "メルセデス S029 (2015〜)",
@@ -35313,6 +35313,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU6917848658",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6917848658/index.html",
+        "title": "Gクラス G450ローンチエディション(ISG搭載モデル) マヌファクトゥーアプログラムプラス　AMGラインパッケージ　サンルーフ　ブラインドスポットモニター　LEDヘッドライト　純正アルミホイール　ETC　フルセグテレビアンテナ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/269/348/UJ0052269348/UJ0052269348_003L.JPG",
+        "total_price": "1898万円",
+        "base_price": "1882万円",
+        "year": "2024(R06)",
+        "mileage": "0.6万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年11月",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "９８Ｇａｌｌｅｒｙ親しみを持って頂けるお店にしていきますので、お気軽にご来店・お問い合わせ下さい♪",
+        "area": "和歌山県和歌山市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7219005966",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7219005966/index.html",
         "title": "Gクラス G400d ディーゼルターボ 4WD BRABUS　Style　Gマヌファクトゥーアプログラム　ラグジュアリーPKG　アダブティブダンビングシステム　レーダーセーフティーPKG　シートベンチレーター　リラクゼーション機能　ETC",
@@ -35864,6 +35883,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7196474987",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7196474987/index.html",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 MANUFAKTURプログラムプラス MANUFAKTURロゴPKG オープンポアウッドインテリアトリム ボディ同色スペアタイヤリング ダイナミックシート ナッパレザー(ダイヤモンドステッチ)",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/570/026/U00053570026/U00053570026_002L.JPG",
+        "total_price": "1957万円",
+        "base_price": "1938万円",
+        "year": "2025(R07)",
+        "mileage": "1.1万km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年02月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
+        "area": "北海道北見市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7142573699",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7142573699/index.html",
         "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ダイヤモンドステッチナッパレザーシート　AMGラインエクステリア　スマートキー　Burmester3Dサラウンドシステム　ボディ同色スペアタイヤリング　ガラススライディングルーフ",
@@ -35921,6 +35959,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7245797311",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7245797311/index.html",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー アダプティブダンピング サンルーフ Burmester AMG20インチAW MBUX ARナビ 本革巻スポーツステアリング(ナッパレザー) イオナイザー デフロック機能",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/798/658/U00053798658/U00053798658_001L.JPG",
+        "total_price": "1960万円",
+        "base_price": "1938万円",
+        "year": "2025(R07)",
+        "mileage": "945km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年07月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
+        "area": "北海道北見市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7007685270",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7007685270/index.html",
         "title": "Gクラス G450d ローンチ エディション (ISG搭載モデル) ディーゼルターボ 4WD ドラレコ付きデジタルルームミラー",
@@ -35974,25 +36031,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ戸塚　サーティファイドカーセンター★全車、全国最寄りのヤナセでご商談可！安心充実のロング保証付き！★",
         "area": "神奈川県横浜市戸塚区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7196474987",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7196474987/index.html",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 MANUFAKTURプログラムプラス MANUFAKTURロゴPKG オープンポアウッドインテリアトリム ボディ同色スペアタイヤリング ダイナミックシート ナッパレザー(ダイヤモンドステッチ)",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/570/026/U00053570026/U00053570026_002L.JPG",
-        "total_price": "1967万円",
-        "base_price": "1948万円",
-        "year": "2025(R07)",
-        "mileage": "1.1万km",
-        "repair_history": "なし",
-        "inspection": "2028(R10)年02月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
-        "area": "北海道北見市",
         "color": ""
       },
       {
@@ -39018,13 +39056,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:43:35.240494"
+    "scraped_at": "2026-08-14T09:57:28.157287"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&LP=AM_S022&SORT=2&CARC=AM_S022&YMIN=2019",
-    "total_count": "228",
-    "scraped_count": 228,
+    "total_count": "229",
+    "scraped_count": 229,
     "cars": [
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
@@ -40035,6 +40073,25 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU7246068138",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7246068138/index.html",
+        "title": "Gクラス G63 4WD 1オーナー 左ハンドル 左右2本出しマフラー レザーエクスクルーシブPKG ドライブレコーダー付きデジタルインナーミラー サンルーフ ブルメスターサウンド",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/821/570/U00053821570/U00053821570_001L.JPG",
+        "total_price": "2142万円",
+        "base_price": "2128万円",
+        "year": "2023(R05)",
+        "mileage": "0.2万km",
+        "repair_history": "なし",
+        "inspection": "2026(R08)年11月",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ロペライオグループ ロペライオさいたま／（株）ロペライオ輸入車を中心に国産車や希少車まで幅広いラインナップよりお車をお選びいただけます",
+        "area": "埼玉県戸田市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU7174820885",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7174820885/index.html",
         "title": "Gクラス G63 4WD 電動格納ステップ搭載/AMGレザーエクスクルーシブPKG/カーボンインテリア/鍛造22インチマットブラックAW/ レッドキャリパー",
@@ -40164,6 +40221,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "サンシンオート　プレミアムカー専門店プレミアムカー専門店　特別低金利2.4％～",
         "area": "愛知県日進市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデスAMG Gクラス (2019〜)",
+        "car_id": "AU7186088963",
+        "detail_url": "",
+        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "3.1万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "4000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -40700,25 +40776,6 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7186088963",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7186088963/index.html",
-        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
-        "total_price": "2321万円",
-        "base_price": "2298万円",
-        "year": "2022(R04)",
-        "mileage": "3.1万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年09月",
-        "warranty": "保証付",
-        "displacement": "4000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデスAMG Gクラス (2019〜)",
         "car_id": "AU7164827171",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7164827171/index.html",
         "title": "Gクラス G63 4WD エディションマグノホワイト 限定車 レーダーセーフティP　ガラスS/R　Brumesterサラウンドサウンドシステム　AMGパフォーマンスステアリング　エナジャイジングP　アダプティブハイビームアシスト・プラス",
@@ -40932,13 +40989,13 @@
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7074281730/index.html",
         "title": "Gクラス G63 4WD",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/052/657/U00053052657/U00053052657_002L.JPG",
-        "total_price": "2399万円",
-        "base_price": "2379万円",
+        "total_price": "2390万円",
+        "base_price": "2376万円",
         "year": "2022(R04)",
         "mileage": "1.4万km",
         "repair_history": "なし",
         "inspection": "2027(R09)年02月",
-        "warranty": "保証無",
+        "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
         "shop_name": "９８Ｇａｌｌｅｒｙ親しみを持って頂けるお店にしていきますので、お気軽にご来店・お問い合わせ下さい♪",
@@ -43360,13 +43417,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:44:02.200762"
+    "scraped_at": "2026-08-14T09:57:57.193552"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
     "url": "https://www.carsensor.net/usedcar/bME/s029/index.html?YMIN=2020&LP=ME_S029&SORT=2",
-    "total_count": "515",
-    "scraped_count": 515,
+    "total_count": "517",
+    "scraped_count": 517,
     "cars": [
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
@@ -49811,6 +49868,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU6917848658",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU6917848658/index.html",
+        "title": "Gクラス G450ローンチエディション(ISG搭載モデル) マヌファクトゥーアプログラムプラス　AMGラインパッケージ　サンルーフ　ブラインドスポットモニター　LEDヘッドライト　純正アルミホイール　ETC　フルセグテレビアンテナ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/269/348/UJ0052269348/UJ0052269348_003L.JPG",
+        "total_price": "1898万円",
+        "base_price": "1882万円",
+        "year": "2024(R06)",
+        "mileage": "0.6万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年11月",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "９８Ｇａｌｌｅｒｙ親しみを持って頂けるお店にしていきますので、お気軽にご来店・お問い合わせ下さい♪",
+        "area": "和歌山県和歌山市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7218508448",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7218508448/index.html",
         "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 マヌファクトゥーアプログラムプラス　チタニウムグレーキルティングレザー　ブルメスターサウンドシステム　ガラススライディングルー　AMG20インチホイール　レーダーセーフティ",
@@ -50229,6 +50305,44 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7196474987",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7196474987/index.html",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 MANUFAKTURプログラムプラス MANUFAKTURロゴPKG オープンポアウッドインテリアトリム ボディ同色スペアタイヤリング ダイナミックシート ナッパレザー(ダイヤモンドステッチ)",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/570/026/U00053570026/U00053570026_002L.JPG",
+        "total_price": "1957万円",
+        "base_price": "1938万円",
+        "year": "2025(R07)",
+        "mileage": "1.1万km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年02月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
+        "area": "北海道北見市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7245797311",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7245797311/index.html",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー アダプティブダンピング サンルーフ Burmester AMG20インチAW MBUX ARナビ 本革巻スポーツステアリング(ナッパレザー) イオナイザー デフロック機能",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/798/658/U00053798658/U00053798658_001L.JPG",
+        "total_price": "1960万円",
+        "base_price": "1938万円",
+        "year": "2025(R07)",
+        "mileage": "945km",
+        "repair_history": "なし",
+        "inspection": "2028(R10)年07月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
+        "area": "北海道北見市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7113869112",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7113869112/index.html",
         "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 カタラーナベージュナッパレザー　マヌファクトゥーアプログラムプラス　ボディ同色スペアタイヤリング　オープンポアグレイオークウッドインテリア　20インチAMGアルミホイール　純正ドライブレコーダー",
@@ -50263,25 +50377,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ名古屋北サーティファイドカーセンター正規ディーラーならではの高品質認定中古車を揃え皆様のお越しをお待ちしております。",
         "area": "愛知県尾張旭市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7196474987",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7196474987/index.html",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 MANUFAKTURプログラムプラス MANUFAKTURロゴPKG オープンポアウッドインテリアトリム ボディ同色スペアタイヤリング ダイナミックシート ナッパレザー(ダイヤモンドステッチ)",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/570/026/U00053570026/U00053570026_002L.JPG",
-        "total_price": "1967万円",
-        "base_price": "1948万円",
-        "year": "2025(R07)",
-        "mileage": "1.1万km",
-        "repair_history": "なし",
-        "inspection": "2028(R10)年02月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＭＩＤ．α　ＧＲＯＵＰ メルセデス・ベンツ北見／株式会社シュテルン北見北海道最大規模の正規販売店、メルセデス・ベンツ北見",
-        "area": "北海道北見市",
         "color": ""
       },
       {
@@ -53155,6 +53250,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-14T04:45:01.903840"
+    "scraped_at": "2026-08-14T09:59:00.499617"
   }
 ]
