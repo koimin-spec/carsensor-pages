@@ -216,7 +216,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:48:05.142494"
+    "scraped_at": "2026-08-25T21:14:17.135054"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2221,7 +2221,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:48:22.140342"
+    "scraped_at": "2026-08-25T21:14:34.147072"
   },
   {
     "label": "キャンピングカー",
@@ -4131,7 +4131,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:48:39.164705"
+    "scraped_at": "2026-08-25T21:14:50.458210"
   },
   {
     "label": "トイファクトリー",
@@ -9746,7 +9746,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:49:18.642061"
+    "scraped_at": "2026-08-25T21:15:29.587618"
   },
   {
     "label": "メルセデス S026",
@@ -10839,6 +10839,25 @@
       },
       {
         "search_label": "メルセデス S026",
+        "car_id": "AU7188184063",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7188184063/index.html",
+        "title": "Vクラス V220 d アバンギャルド ディーゼルターボ レーダーセーフティPKG 純正ナビ TV 全方位カメラ フリップダウンモニター 黒革 シートヒーター パワーシート 両側パワースライドドア パワーバックドア 18インチAW デジタルインナーミラー型ドラレコ ワンオーナー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/562/459/UZ0053562459/UZ0053562459_003L.JPG",
+        "total_price": "388万円",
+        "base_price": "380万円",
+        "year": "2021(R03)",
+        "mileage": "7.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備付",
+        "warranty": "保証付",
+        "displacement": "2200CC",
+        "mission": "コラムMTモード付7AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "宮城県仙台市太白区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
         "car_id": "AU7069983840",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7069983840/index.html",
         "title": "Vクラス V220 d スポーツ ロング ディーゼルターボ レーダーセーフティ　パノラマサンルーフ　ブラックレザーシート&ヒーター　ナビTV360カメラ　ブラインドスポットアシスト　ブルメスターサウンドシステム　両側電動スライドドア　電動テールゲート　ドラレコ",
@@ -10854,25 +10873,6 @@
         "mission": "コラムMTモード付7AT",
         "shop_name": "アクセル東名横浜ショールーム　輸入車専門店☆オプション最大12万円サポート☆",
         "area": "神奈川県横浜市緑区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S026",
-        "car_id": "AU7188184063",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7188184063/index.html",
-        "title": "Vクラス V220 d アバンギャルド ディーゼルターボ レーダーセーフティPKG 純正ナビ TV 全方位カメラ フリップダウンモニター 黒革 シートヒーター パワーシート 両側パワースライドドア パワーバックドア 18インチAW デジタルインナーミラー型ドラレコ ワンオーナー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/562/459/UZ0053562459/UZ0053562459_003L.JPG",
-        "total_price": "392万円",
-        "base_price": "384万円",
-        "year": "2021(R03)",
-        "mileage": "7.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証付",
-        "displacement": "2200CC",
-        "mission": "コラムMTモード付7AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ仙台無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "宮城県仙台市太白区",
         "color": ""
       },
       {
@@ -15228,7 +15228,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:49:57.666959"
+    "scraped_at": "2026-08-25T21:16:09.470514"
   },
   {
     "label": "ベンツ S560",
@@ -15960,7 +15960,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:50:05.656053"
+    "scraped_at": "2026-08-25T21:16:17.716016"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -20872,7 +20872,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:50:42.128548"
+    "scraped_at": "2026-08-25T21:16:52.042005"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -22858,13 +22858,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:50:59.121313"
+    "scraped_at": "2026-08-25T21:17:07.988717"
   },
   {
     "label": "メルセデス S029 (2015〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015",
-    "total_count": "774",
-    "scraped_count": 774,
+    "total_count": "773",
+    "scraped_count": 773,
     "cars": [
       {
         "search_label": "メルセデス S029 (2015〜)",
@@ -24939,6 +24939,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7193479654",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7193479654/index.html",
+        "title": "Gクラス G350d ロング ディーゼルターボ 4WD 後期型 グレー内装 ラグジュアリーパッケージ 8インチコマンドナビ AppleCarPlay 本革シート スライディングルーフ harman/kardon AMGオーバーフェンダー 前後シートヒーター レーダーセーフティPKG バックカメラ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/573/149/U00053573149/U00053573149_002L.JPG",
+        "total_price": "728万円",
+        "base_price": "721万円",
+        "year": "2017(H29)",
+        "mileage": "4.5万km",
+        "repair_history": "なし",
+        "inspection": "2026(R08)年12月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "フロアMTモード付7AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ長野無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "長野県長野市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6890698893",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6890698893/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD 本革シート　サンルーフ　クローム3本グリル　harman kardonサウンド　18インチ純正ホイール　背面タイヤカバー　メッキリング　3.0L　V6ディーゼル",
@@ -25106,25 +25125,6 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "（株）ＯＤＡ　ＡＵＴＯお客様だけの特別な車両をご提供！",
         "area": "大阪府守口市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7193479654",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7193479654/index.html",
-        "title": "Gクラス G350d ロング ディーゼルターボ 4WD 後期型 グレー内装 ラグジュアリーパッケージ 8インチコマンドナビ AppleCarPlay 本革シート スライディングルーフ harman/kardon AMGオーバーフェンダー 前後シートヒーター レーダーセーフティPKG バックカメラ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/573/149/U00053573149/U00053573149_002L.JPG",
-        "total_price": "748万円",
-        "base_price": "741万円",
-        "year": "2017(H29)",
-        "mileage": "4.5万km",
-        "repair_history": "なし",
-        "inspection": "2026(R08)年12月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "フロアMTモード付7AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ長野無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "長野県長野市",
         "color": ""
       },
       {
@@ -27310,25 +27310,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ久留米無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
         "area": "福岡県久留米市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7229177524",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7229177524/index.html",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/750/401/U00053750401/U00053750401_001L.JPG",
-        "total_price": "1198万円",
-        "base_price": "1188万円",
-        "year": "2019(R01)",
-        "mileage": "1.8万km",
-        "repair_history": "なし",
-        "inspection": "2026(R08)年11月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＴＡＸ羽曳野店【一生涯のお付き合い】ＴＡＸ羽曳野店　お客様により良いカーライフを！",
-        "area": "大阪府羽曳野市",
         "color": ""
       },
       {
@@ -37574,7 +37555,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:52:38.134572"
+    "scraped_at": "2026-08-25T21:18:49.862016"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -41783,7 +41764,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:53:09.826207"
+    "scraped_at": "2026-08-25T21:19:22.448549"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -51502,6 +51483,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-08-25T14:54:18.630389"
+    "scraped_at": "2026-08-25T21:20:31.597146"
   }
 ]
