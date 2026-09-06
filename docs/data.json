@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:45:22.181258"
+    "scraped_at": "2026-09-06T22:28:22.043514"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2202,7 +2202,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:45:36.433348"
+    "scraped_at": "2026-09-06T22:28:37.069450"
   },
   {
     "label": "キャンピングカー",
@@ -4112,7 +4112,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:45:50.695433"
+    "scraped_at": "2026-09-06T22:28:53.005245"
   },
   {
     "label": "トイファクトリー",
@@ -9632,7 +9632,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:46:24.872425"
+    "scraped_at": "2026-09-06T22:29:31.304824"
   },
   {
     "label": "メルセデス S026",
@@ -15019,7 +15019,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:47:00.168108"
+    "scraped_at": "2026-09-06T22:30:09.601956"
   },
   {
     "label": "ベンツ S560",
@@ -15732,7 +15732,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:47:07.226722"
+    "scraped_at": "2026-09-06T22:30:17.259136"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -20701,7 +20701,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:47:39.537495"
+    "scraped_at": "2026-09-06T22:30:52.175197"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -22668,7 +22668,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:47:54.778730"
+    "scraped_at": "2026-09-06T22:31:07.632103"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -37061,7 +37061,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:49:23.345879"
+    "scraped_at": "2026-09-06T22:32:44.151870"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -37641,21 +37641,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7186088963",
+        "car_id": "AU7285370657",
         "detail_url": "",
-        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
+        "title": "Gクラス G63 (ISG) 4WD MP202501 AMGナイトパッケージ/AMGレッドブレーキキャリー/AMG ACTIVE RIDE CONTROLサスペンション/AMGパフォーマンスステアリング/AMGカーボンファイバーインテリアトリム/純正ドライブレコーダー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/965/550/U00053965550/U00053965550_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "3.1万km",
+        "year": "2024(R06)",
+        "mileage": "0.3万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -38230,21 +38230,21 @@
       },
       {
         "search_label": "メルセデスAMG Gクラス (2019〜)",
-        "car_id": "AU7285370657",
+        "car_id": "AU7186088963",
         "detail_url": "",
-        "title": "Gクラス G63 (ISG) 4WD MP202501 AMGナイトパッケージ/AMGレッドブレーキキャリー/AMG ACTIVE RIDE CONTROLサスペンション/AMGパフォーマンスステアリング/AMGカーボンファイバーインテリアトリム/純正ドライブレコーダー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/965/550/U00053965550/U00053965550_001L.JPG",
+        "title": "Gクラス G63 マグノ ヒーロー エディション 4WD 弊社下取車両　サンルーフ　アンビエントライト　シートベンチレーション　メモリー付パワーシート",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/551/420/U00053551420/U00053551420_002L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2024(R06)",
-        "mileage": "0.3万km",
+        "year": "2022(R04)",
+        "mileage": "3.1万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証付",
         "displacement": "4000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -41289,7 +41289,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:49:51.082511"
+    "scraped_at": "2026-09-06T22:33:15.343917"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -50780,6 +50780,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-06T16:50:48.595120"
+    "scraped_at": "2026-09-06T22:34:19.414651"
   }
 ]
