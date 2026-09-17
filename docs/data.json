@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:00:07.392268"
+    "scraped_at": "2026-09-17T23:08:49.734632"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2107,7 +2107,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:00:22.983381"
+    "scraped_at": "2026-09-17T23:09:03.601091"
   },
   {
     "label": "キャンピングカー",
@@ -4017,7 +4017,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:00:38.496769"
+    "scraped_at": "2026-09-17T23:09:17.874448"
   },
   {
     "label": "トイファクトリー",
@@ -9309,7 +9309,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:01:14.821521"
+    "scraped_at": "2026-09-17T23:09:51.829065"
   },
   {
     "label": "メルセデス S026",
@@ -15038,7 +15038,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:01:57.006134"
+    "scraped_at": "2026-09-17T23:10:30.720798"
   },
   {
     "label": "ベンツ S560",
@@ -15656,7 +15656,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:02:04.483004"
+    "scraped_at": "2026-09-17T23:10:37.682942"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -20663,7 +20663,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:02:39.028727"
+    "scraped_at": "2026-09-17T23:11:09.311364"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -22706,7 +22706,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:02:54.856712"
+    "scraped_at": "2026-09-17T23:11:24.026474"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -23286,25 +23286,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7305432590",
-        "detail_url": "",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー/内装色　カタラーナベージュ/マヌファクトゥーアプログラム・プラス/ボディ同色スペアタイヤリング/ナッパレザーシート(ダイヤモンドステッチ)/シートベンチレーター/温冷ドリンクホルダー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/027/435/U00054027435/U00054027435_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "1.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7296381221",
         "detail_url": "",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
@@ -23320,6 +23301,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
         "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7305432590",
+        "detail_url": "",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー/内装色　カタラーナベージュ/マヌファクトゥーアプログラム・プラス/ボディ同色スペアタイヤリング/ナッパレザーシート(ダイヤモンドステッチ)/シートベンチレーター/温冷ドリンクホルダー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/027/435/U00054027435/U00054027435_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2025(R07)",
+        "mileage": "1.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -24464,6 +24464,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7338296807",
+        "detail_url": "",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 弊社ユーザー様下取り　マヌファクトゥーアED　前席パワーシート　シートヒーター　ベンチレーター　360度カメラ　アンビエントライト64色　本革シート　サンルーフ　ブルメスターサウンド　アダプティブダンピング",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/179/863/U00054179863/U00054179863_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2021(R03)",
+        "mileage": "5.5万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7071899915",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7071899915/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD ラグジュアリーPKG スライディングルーフ  ブラック本革シート  全席シートヒーター 純正ナビディスプレイ BT AppleCarPlay harman/kardon  ブラインドスポットアシスト パーキングアシストリアビューカメラ  ETC2.0",
@@ -25030,25 +25049,6 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "ＪＡＰＡＮ　ＡＵＴＯ　ＣＬＵＢ創業32年の実績とノウハウ、認証工場を併設し、アフターフォローも対応させて頂きます",
         "area": "京都府京都市右京区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7338296807",
-        "detail_url": "",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 弊社ユーザー様下取り　マヌファクトゥーアED　前席パワーシート　シートヒーター　ベンチレーター　360度カメラ　アンビエントライト64色　本革シート　サンルーフ　ブルメスターサウンド　アダプティブダンピング",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/179/863/U00054179863/U00054179863_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2021(R03)",
-        "mileage": "5.5万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -37156,7 +37156,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:04:31.865905"
+    "scraped_at": "2026-09-17T23:12:51.210201"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -41232,7 +41232,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:05:01.200434"
+    "scraped_at": "2026-09-17T23:13:18.242187"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -41812,25 +41812,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7296381221",
-        "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "4.4万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7305432590",
         "detail_url": "",
         "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー/内装色　カタラーナベージュ/マヌファクトゥーアプログラム・プラス/ボディ同色スペアタイヤリング/ナッパレザーシート(ダイヤモンドステッチ)/シートベンチレーター/温冷ドリンクホルダー",
@@ -41846,6 +41827,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
         "area": "東京都世田谷区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7338296807",
+        "detail_url": "",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 弊社ユーザー様下取り　マヌファクトゥーアED　前席パワーシート　シートヒーター　ベンチレーター　360度カメラ　アンビエントライト64色　本革シート　サンルーフ　ブルメスターサウンド　アダプティブダンピング",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/179/863/U00054179863/U00054179863_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2021(R03)",
+        "mileage": "5.5万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -42420,21 +42420,21 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7338296807",
+        "car_id": "AU7296381221",
         "detail_url": "",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 弊社ユーザー様下取り　マヌファクトゥーアED　前席パワーシート　シートヒーター　ベンチレーター　360度カメラ　アンビエントライト64色　本革シート　サンルーフ　ブルメスターサウンド　アダプティブダンピング",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/179/863/U00054179863/U00054179863_001L.JPG",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2021(R03)",
-        "mileage": "5.5万km",
+        "year": "2022(R04)",
+        "mileage": "4.4万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
-        "warranty": "保証無",
+        "warranty": "保証付",
         "displacement": "3000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -51027,6 +51027,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-17T18:06:10.148136"
+    "scraped_at": "2026-09-17T23:14:19.987789"
   }
 ]
