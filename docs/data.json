@@ -311,7 +311,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:23:22.289935"
+    "scraped_at": "2026-09-20T17:20:01.173613"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2221,12 +2221,12 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:23:38.033924"
+    "scraped_at": "2026-09-20T17:20:16.763910"
   },
   {
     "label": "キャンピングカー",
     "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC/index.html?SORT=21",
-    "total_count": "2619",
+    "total_count": "2620",
     "scraped_count": 100,
     "cars": [
       {
@@ -4131,7 +4131,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:23:55.113443"
+    "scraped_at": "2026-09-20T17:20:32.931071"
   },
   {
     "label": "トイファクトリー",
@@ -9594,7 +9594,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:24:34.228658"
+    "scraped_at": "2026-09-20T17:21:10.773913"
   },
   {
     "label": "メルセデス S026",
@@ -15456,7 +15456,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:25:17.856687"
+    "scraped_at": "2026-09-20T17:21:54.850316"
   },
   {
     "label": "ベンツ S560",
@@ -16150,7 +16150,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:25:25.874124"
+    "scraped_at": "2026-09-20T17:22:02.579051"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21328,7 +21328,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:26:07.367458"
+    "scraped_at": "2026-09-20T17:22:41.871606"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23409,7 +23409,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:26:24.816717"
+    "scraped_at": "2026-09-20T17:22:58.531881"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -24008,21 +24008,21 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7296381221",
+        "car_id": "AU7338783821",
         "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_001L.JPG",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 認定中古車　マヌファクトゥーアプログラム　アダプティブダンピング　360度カメラ　アンビエントライト64色　前席パワーシート　シートヒーター　有償カラー　本革シート　サンルーフ　オパリスホワイト",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/181/198/U00054181198/U00054181198_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "4.4万km",
+        "year": "2023(R05)",
+        "mileage": "1.5万km",
         "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
+        "inspection": "車検整備付",
+        "warranty": "保証無",
         "displacement": "3000CC",
         "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -25167,25 +25167,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7338783821",
-        "detail_url": "",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 認定中古車　マヌファクトゥーアプログラム　アダプティブダンピング　360度カメラ　アンビエントライト64色　前席パワーシート　シートヒーター　有償カラー　本革シート　サンルーフ　オパリスホワイト",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/181/198/U00054181198/U00054181198_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.5万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7280510043",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7280510043/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD (鉄ルーフ・ハーマンカードン・アイボリー内装・ローレンジ・デフロック・FRドラレコ・バックカメラ・追従クルコン・ブラインドスポット・地ナビ・Pシート・シートヒーター・R18AW)",
@@ -25752,6 +25733,25 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "ＣＡＲＬＩＮＫ　ＤＥＬＩＧＨＴ 練馬北町店輸入車を中心に厳選した良質車両をラインナップ!愛車選びは当店へ是非お任せ下さい!",
         "area": "東京都練馬区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7296381221",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "4.4万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -38163,7 +38163,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:28:06.570166"
+    "scraped_at": "2026-09-20T17:24:44.266990"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -42163,7 +42163,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:28:33.563404"
+    "scraped_at": "2026-09-20T17:25:11.962294"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -42743,25 +42743,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7305432590",
-        "detail_url": "",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー/内装色　カタラーナベージュ/マヌファクトゥーアプログラム・プラス/ボディ同色スペアタイヤリング/ナッパレザーシート(ダイヤモンドステッチ)/シートベンチレーター/温冷ドリンクホルダー",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/027/435/U00054027435/U00054027435_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2025(R07)",
-        "mileage": "1.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
-        "area": "東京都世田谷区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7296381221",
         "detail_url": "",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
@@ -42777,6 +42758,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
         "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7305432590",
+        "detail_url": "",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202501 ワンオーナー/内装色　カタラーナベージュ/マヌファクトゥーアプログラム・プラス/ボディ同色スペアタイヤリング/ナッパレザーシート(ダイヤモンドステッチ)/シートベンチレーター/温冷ドリンクホルダー",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/027/435/U00054027435/U00054027435_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2025(R07)",
+        "mileage": "1.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ世田谷南サーティファイドカーセンター店舗総在庫80台！環状八号線沿いの好立地で認定中古車をご覧頂けます。",
+        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -43902,6 +43902,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7338783821",
+        "detail_url": "",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 認定中古車　マヌファクトゥーアプログラム　アダプティブダンピング　360度カメラ　アンビエントライト64色　前席パワーシート　シートヒーター　有償カラー　本革シート　サンルーフ　オパリスホワイト",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/181/198/U00054181198/U00054181198_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2023(R05)",
+        "mileage": "1.5万km",
+        "repair_history": "なし",
+        "inspection": "車検整備付",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7264154106",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7264154106/index.html",
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 認定保証2年 G.manufakturプログラム アダプティブダンピング ボディ同色スペアタイヤリング プレミアムラゲッジボード エナジャイジング ダイナミックシート リラクゼーション",
@@ -44468,25 +44487,6 @@
         "mission": "コラム9AT",
         "shop_name": "ＤＲＥＡＭ　ＧＡＲＡＧＥ　柏インター店新車・中古車販売・買取・修理・保険・ローン・車全面対応",
         "area": "千葉県柏市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7338783821",
-        "detail_url": "",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 認定中古車　マヌファクトゥーアプログラム　アダプティブダンピング　360度カメラ　アンビエントライト64色　前席パワーシート　シートヒーター　有償カラー　本革シート　サンルーフ　オパリスホワイト",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/181/198/U00054181198/U00054181198_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.5万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -52243,6 +52243,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-09-20T13:29:42.913517"
+    "scraped_at": "2026-09-20T17:26:23.131039"
   }
 ]
