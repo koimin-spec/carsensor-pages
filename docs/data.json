@@ -292,7 +292,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:50:02.692642"
+    "scraped_at": "2026-10-03T23:23:28.190290"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2354,7 +2354,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:50:17.791163"
+    "scraped_at": "2026-10-03T23:23:43.824378"
   },
   {
     "label": "キャンピングカー",
@@ -4264,7 +4264,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:50:32.612859"
+    "scraped_at": "2026-10-03T23:23:58.932097"
   },
   {
     "label": "トイファクトリー",
@@ -9917,7 +9917,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:51:07.413588"
+    "scraped_at": "2026-10-03T23:24:33.272613"
   },
   {
     "label": "メルセデス S026",
@@ -15646,7 +15646,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:51:45.747187"
+    "scraped_at": "2026-10-03T23:25:12.108739"
   },
   {
     "label": "ベンツ S560",
@@ -16473,7 +16473,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:51:53.048816"
+    "scraped_at": "2026-10-03T23:25:19.408412"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21651,7 +21651,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:52:28.521299"
+    "scraped_at": "2026-10-03T23:25:54.350443"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23732,7 +23732,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:52:44.012398"
+    "scraped_at": "2026-10-03T23:26:09.573791"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -26060,25 +26060,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7296381221",
-        "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "4.4万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU6685840817",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU6685840817/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD イエローストーン 2024年2023年製造21インチコンチネンタルタイヤ 大型モニター",
@@ -27899,6 +27880,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＧＡＲＡＧＥ　ＴＲＵＳＴ【福岡・北九州】小倉南ICすぐ！お手頃軽＆無人展示場★全車コミコミ見るだけ大歓迎",
         "area": "福岡県北九州市小倉南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7296381221",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7296381221/index.html",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
+        "total_price": "1243万円",
+        "base_price": "1228万円",
+        "year": "2022(R04)",
+        "mileage": "4.4万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年06月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -37574,7 +37574,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:54:12.467332"
+    "scraped_at": "2026-10-03T23:27:36.276881"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -41726,7 +41726,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:54:42.258192"
+    "scraped_at": "2026-10-03T23:28:05.738104"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -51464,6 +51464,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-03T17:55:45.327222"
+    "scraped_at": "2026-10-03T23:29:08.022136"
   }
 ]
