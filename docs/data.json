@@ -311,7 +311,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:14:56.784738"
+    "scraped_at": "2026-10-14T18:22:44.289331"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2278,7 +2278,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:15:11.313591"
+    "scraped_at": "2026-10-14T18:23:00.079992"
   },
   {
     "label": "キャンピングカー",
@@ -4188,7 +4188,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:15:25.925600"
+    "scraped_at": "2026-10-14T18:23:16.775379"
   },
   {
     "label": "トイファクトリー",
@@ -9708,13 +9708,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:15:59.861734"
+    "scraped_at": "2026-10-14T18:23:54.368734"
   },
   {
     "label": "メルセデス S026",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&LP=ME_S026&SORT=2&CARC=ME_S026&YMIN=2015",
-    "total_count": "276",
-    "scraped_count": 276,
+    "total_count": "277",
+    "scraped_count": 277,
     "cars": [
       {
         "search_label": "メルセデス S026",
@@ -11181,25 +11181,6 @@
       },
       {
         "search_label": "メルセデス S026",
-        "car_id": "AU7371007418",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7371007418/index.html",
-        "title": "Vクラス V220 d スポーツ ディーゼルターボ 黒革 両側電動 ナビ Bカメラ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/335/285/UZ0054335285/UZ0054335285_001L.JPG",
-        "total_price": "439万円",
-        "base_price": "427万円",
-        "year": "2017(H29)",
-        "mileage": "1.2万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証付",
-        "displacement": "2200CC",
-        "mission": "コラム7AT",
-        "shop_name": "ガリバー 平塚四之宮店無料電話は24時間ご案内！！全国のガリバー在庫も見たい方は一括照会が可能です！",
-        "area": "神奈川県平塚市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S026",
         "car_id": "AU7235849737",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7235849737/index.html",
         "title": "Vクラス V220 d アバンギャルド ロング AMGライン ディーゼルターボ ワンオーナー　中期モデル　NOXセンサー交換済　ドライブレコーダー",
@@ -11234,6 +11215,25 @@
         "mission": "コラムMTモード付7AT",
         "shop_name": "ｓｈｉｆｔ－ｍｏｔｏｒｉｎｇ．ｃｏｍ",
         "area": "東京都世田谷区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
+        "car_id": "AU7371007418",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7371007418/index.html",
+        "title": "Vクラス V220 d スポーツ ディーゼルターボ 黒革 両側電動 ナビ Bカメラ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/335/285/UZ0054335285/UZ0054335285_001L.JPG",
+        "total_price": "439万円",
+        "base_price": "428万円",
+        "year": "2017(H29)",
+        "mileage": "1.2万km",
+        "repair_history": "なし",
+        "inspection": "車検整備付",
+        "warranty": "保証付",
+        "displacement": "2200CC",
+        "mission": "コラム7AT",
+        "shop_name": "ガリバー 平塚四之宮店無料電話は24時間ご案内！！全国のガリバー在庫も見たい方は一括照会が可能です！",
+        "area": "神奈川県平塚市",
         "color": ""
       },
       {
@@ -12184,6 +12184,25 @@
         "mission": "コラムMTモード付7AT",
         "shop_name": "土屋自動車工業安心と信頼のJUメンバーショップ♪全国納車可能です♪カード払いOK♪",
         "area": "東京都調布市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S026",
+        "car_id": "AU7413892738",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7413892738/index.html",
+        "title": "Vクラス V220 d アバンギャルド ロング ディーゼルターボ 純正ナビ フリップダウン 全方位カメラ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/496/096/UZ0054496096/UZ0054496096_001L.JPG",
+        "total_price": "574万円",
+        "base_price": "568万円",
+        "year": "2022(R04)",
+        "mileage": "6.3万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年05月",
+        "warranty": "保証付",
+        "displacement": "2000CC",
+        "mission": "コラム9AT",
+        "shop_name": "ガリバー 宮崎橘橋店無料電話は24時間ご案内！！全国のガリバー在庫も見たい方は一括照会が可能です！",
+        "area": "宮崎県宮崎市",
         "color": ""
       },
       {
@@ -14962,7 +14981,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:16:35.513519"
+    "scraped_at": "2026-10-14T18:24:33.733492"
   },
   {
     "label": "ベンツ S560",
@@ -15694,7 +15713,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:16:42.876101"
+    "scraped_at": "2026-10-14T18:24:41.561575"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -20720,7 +20739,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:17:14.526947"
+    "scraped_at": "2026-10-14T18:25:20.363525"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -22801,13 +22820,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:17:30.162793"
+    "scraped_at": "2026-10-14T18:25:38.187774"
   },
   {
     "label": "メルセデス S029 (2015〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015",
-    "total_count": "747",
-    "scraped_count": 747,
+    "total_count": "748",
+    "scraped_count": 748,
     "cars": [
       {
         "search_label": "メルセデス S029 (2015〜)",
@@ -24559,6 +24578,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7296381221",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "4.4万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7394561875",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7394561875/index.html",
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD ラグジュアリーPKG　後期モデル8インチナビ",
@@ -24859,6 +24897,25 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "有限会社　アーガス",
         "area": "埼玉県桶川市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7413899424",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7413899424/index.html",
+        "title": "Gクラス G350d ロング ディーゼルターボ 4WD ・ラグジュアリーPKG・サンルーフ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/496/202/UZ0054496202/UZ0054496202_001L.JPG",
+        "total_price": "779万円",
+        "base_price": "773万円",
+        "year": "2018(H30)",
+        "mileage": "4万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年03月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "フロア7AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラお台場無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "東京都江東区",
         "color": ""
       },
       {
@@ -25913,7 +25970,7 @@
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD 特別外装色イエローストーン/ラグジュアリーPKG/スライディングルーフ/レザーシート/前後席シートヒーター/メーカーオプション8インチナビ/フルセグTV/harman/kardonサウンドシステム",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/344/875/UZ0054344875/UZ0054344875_001L.JPG",
         "total_price": "999万円",
-        "base_price": "986万円",
+        "base_price": "987万円",
         "year": "2021(R03)",
         "mileage": "0.2万km",
         "repair_history": "なし",
@@ -26835,25 +26892,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "（有）北熊本自動車販売",
         "area": "熊本県熊本市北区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7296381221",
-        "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "4.4万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -28991,7 +29029,7 @@
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 左H/サンルーフ/ワンオーナー/AMGラインラグジュアリーパッケージ/レーダーセーフティPKG/全方位カメラ/ETC2.0　/ドラレコ/レザーシート/前席パワーシート/全席シートヒーター/BSM/コーナーセンサー",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/602/004/UZ0053602004/UZ0053602004_001L.JPG",
         "total_price": "1364万円",
-        "base_price": "1356万円",
+        "base_price": "1357万円",
         "year": "2021(R03)",
         "mileage": "3.3万km",
         "repair_history": "なし",
@@ -37004,7 +37042,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:18:55.370570"
+    "scraped_at": "2026-10-14T18:27:09.818699"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -41061,7 +41099,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:19:22.249200"
+    "scraped_at": "2026-10-14T18:27:36.385844"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -41171,7 +41209,7 @@
         "title": "Gクラス G350d ロング ディーゼルターボ 4WD 特別外装色イエローストーン/ラグジュアリーPKG/スライディングルーフ/レザーシート/前後席シートヒーター/メーカーオプション8インチナビ/フルセグTV/harman/kardonサウンドシステム",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/344/875/UZ0054344875/UZ0054344875_001L.JPG",
         "total_price": "999万円",
-        "base_price": "986万円",
+        "base_price": "987万円",
         "year": "2021(R03)",
         "mileage": "0.2万km",
         "repair_history": "なし",
@@ -43299,7 +43337,7 @@
         "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD 左H/サンルーフ/ワンオーナー/AMGラインラグジュアリーパッケージ/レーダーセーフティPKG/全方位カメラ/ETC2.0　/ドラレコ/レザーシート/前席パワーシート/全席シートヒーター/BSM/コーナーセンサー",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/602/004/UZ0053602004/UZ0053602004_001L.JPG",
         "total_price": "1364万円",
-        "base_price": "1356万円",
+        "base_price": "1357万円",
         "year": "2021(R03)",
         "mileage": "3.3万km",
         "repair_history": "なし",
@@ -50837,6 +50875,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-14T14:20:24.381081"
+    "scraped_at": "2026-10-14T18:28:36.629791"
   }
 ]
