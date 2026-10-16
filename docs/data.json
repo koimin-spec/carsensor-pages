@@ -330,7 +330,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:50:38.287573"
+    "scraped_at": "2026-10-16T23:04:06.229373"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2316,7 +2316,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:50:52.464280"
+    "scraped_at": "2026-10-16T23:04:23.095414"
   },
   {
     "label": "キャンピングカー",
@@ -4226,7 +4226,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:51:06.975242"
+    "scraped_at": "2026-10-16T23:04:39.945271"
   },
   {
     "label": "トイファクトリー",
@@ -10012,7 +10012,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:51:44.864992"
+    "scraped_at": "2026-10-16T23:05:22.478088"
   },
   {
     "label": "メルセデス S026",
@@ -15342,7 +15342,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:52:20.093274"
+    "scraped_at": "2026-10-16T23:06:00.960925"
   },
   {
     "label": "ベンツ S560",
@@ -16074,7 +16074,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:52:27.483610"
+    "scraped_at": "2026-10-16T23:06:08.912463"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -17258,6 +17258,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＰＲＥＭＩＵＭ　ＣＡＲ　ＤＥＡＬＥＲ　ＷＯＲＬＤお車の事なら当店にお任せください！輸入車から国産車まで幅広くご用意しております！",
         "area": "福岡県福津市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S019 (2021〜)",
+        "car_id": "AU7343852728",
+        "detail_url": "",
+        "title": "Sクラス S400 d 4マチック AMGラインパッケージ ディーゼルターボ 4WD MP202301 AMGラインパッケージ　ベーシックパッケージ　レザーエクスクルーシブパッケージ　3Dコックピットディスプレイ　ARヘッドアップディスプレイ　パノラミックスライディングルーフ　Burmesterサウンドシステム",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/218/072/U00054218072/U00054218072_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2023(R05)",
+        "mileage": "1.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "2900CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -18474,25 +18493,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＢＩＳＭ（ビーイズム）／横浜の高級輸入車専門店価格ではなく「背景」で選ぶ。創業20年の審美眼が綴る、欧州高級車の真価。",
         "area": "神奈川県横浜市都筑区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S019 (2021〜)",
-        "car_id": "AU7343852728",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7343852728/index.html",
-        "title": "Sクラス S400 d 4マチック AMGラインパッケージ ディーゼルターボ 4WD MP202301 AMGラインパッケージ　ベーシックパッケージ　レザーエクスクルーシブパッケージ　3Dコックピットディスプレイ　ARヘッドアップディスプレイ　パノラミックスライディングルーフ　Burmesterサウンドシステム",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/218/072/U00054218072/U00054218072_001L.JPG",
-        "total_price": "924万円",
-        "base_price": "908万円",
-        "year": "2023(R05)",
-        "mileage": "1.8万km",
-        "repair_history": "なし",
-        "inspection": "2028(R10)年04月",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -21271,7 +21271,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:53:01.928010"
+    "scraped_at": "2026-10-16T23:06:47.241146"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -21851,6 +21851,25 @@
       },
       {
         "search_label": "メルセデス S019 ロング (2021〜)",
+        "car_id": "AU7343852728",
+        "detail_url": "",
+        "title": "Sクラス S400 d 4マチック AMGラインパッケージ ディーゼルターボ 4WD MP202301 AMGラインパッケージ　ベーシックパッケージ　レザーエクスクルーシブパッケージ　3Dコックピットディスプレイ　ARヘッドアップディスプレイ　パノラミックスライディングルーフ　Burmesterサウンドシステム",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/218/072/U00054218072/U00054218072_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2023(R05)",
+        "mileage": "1.8万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "2900CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S019 ロング (2021〜)",
         "car_id": "AU7357220014",
         "detail_url": "",
         "title": "Sクラス S450d 4マチック AMGラインパッケージ(ISG) ディーゼルターボ 4WD MP202601 メルセデス・ケア(新車保証)継承　元弊社デモカー　認定中古車　前後純正ドライブレコーダー　360°カメラシステム　ブルメスターサウンド　パヒュームアトマイザー　パノラマサンルーフ　ベンチレーション",
@@ -21866,25 +21885,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ横浜東サーティファイドカーセンター全国ご納車可能！2年保証付き！実質年率2.9%～（ローン）ご案内可能でございます!",
         "area": "神奈川県横浜市鶴見区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S019 ロング (2021〜)",
-        "car_id": "AU7334351751",
-        "detail_url": "",
-        "title": "Sクラス S450d 4マチック AMGラインパッケージ(ISG搭載モデル) ディーゼルターボ 4WD MP202402 弊社下取り/AMGライン/ワイヤレスチャージング/パノラミックスライディングルーフ/電動シート(メモリ付)/アンビエントライト(64色)/ステアリングヒーター/リアアクスル/パフュームアトマイザー/電動トランク",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/168/311/U00054168311/U00054168311_002L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2024(R06)",
-        "mileage": "2.2万km",
-        "repair_history": "なし",
-        "inspection": "車検整備付",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ武蔵村山　羽村サーティファイドカーセンター関東一円のお客様は、ご自宅でお車をご覧いただけます。詳細はお問い合わせください。",
-        "area": "東京都羽村市",
         "color": ""
       },
       {
@@ -22459,6 +22459,25 @@
       },
       {
         "search_label": "メルセデス S019 ロング (2021〜)",
+        "car_id": "AU7334351751",
+        "detail_url": "",
+        "title": "Sクラス S450d 4マチック AMGラインパッケージ(ISG搭載モデル) ディーゼルターボ 4WD MP202402 弊社下取り/AMGライン/ワイヤレスチャージング/パノラミックスライディングルーフ/電動シート(メモリ付)/アンビエントライト(64色)/ステアリングヒーター/リアアクスル/パフュームアトマイザー/電動トランク",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/168/311/U00054168311/U00054168311_002L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2024(R06)",
+        "mileage": "2.2万km",
+        "repair_history": "なし",
+        "inspection": "車検整備付",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ武蔵村山　羽村サーティファイドカーセンター関東一円のお客様は、ご自宅でお車をご覧いただけます。詳細はお問い合わせください。",
+        "area": "東京都羽村市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S019 ロング (2021〜)",
         "car_id": "AU7183898665",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7183898665/index.html",
         "title": "Sクラス S400 d 4マチック ロング AMGライン ディーゼルターボ 4WD リアコンフォートPKG リアエンターテイメント ブルメスター4Dハイエンドサラウンド リアアクスルステアリング 左ハンドル",
@@ -23029,25 +23048,6 @@
       },
       {
         "search_label": "メルセデス S019 ロング (2021〜)",
-        "car_id": "AU7343852728",
-        "detail_url": "",
-        "title": "Sクラス S400 d 4マチック AMGラインパッケージ ディーゼルターボ 4WD MP202301 AMGラインパッケージ　ベーシックパッケージ　レザーエクスクルーシブパッケージ　3Dコックピットディスプレイ　ARヘッドアップディスプレイ　パノラミックスライディングルーフ　Burmesterサウンドシステム",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/218/072/U00054218072/U00054218072_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2023(R05)",
-        "mileage": "1.8万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S019 ロング (2021〜)",
         "car_id": "AU7322101385",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7322101385/index.html",
         "title": "Sクラス S500 4マチック ロング AMGラインパッケージ (ISG搭載モデル) 4WD MP202402 リアコンフォート・ドライバース・MBUXリアエンターテイメントシステムパッケージ　ブルメスタハイエンド4Dサラウンドサウンドシステム　E-アクティブボデーコントロールパッケージ",
@@ -23466,7 +23466,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:53:16.667299"
+    "scraped_at": "2026-10-16T23:07:05.219110"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -25220,6 +25220,25 @@
         "mission": "フロア7AT",
         "shop_name": "ＴＨＲＥＥ　ＷＡＹＳ国家整備士が販売する高品質な車両のみ取扱い。国土交通省認証工場完備！",
         "area": "岐阜県岐阜市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7296381221",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "4.4万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
+        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -27975,25 +27994,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＧＡＲＡＧＥ　ＴＲＵＳＴ【福岡・北九州】小倉南ICすぐ！お手頃軽＆無人展示場★全車コミコミ見るだけ大歓迎",
         "area": "福岡県北九州市小倉南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7296381221",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7296381221/index.html",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　ガラススライディングルーフ　Burmesterサラウンドサウンドシステム　純正20インチAMGマルチスポークアルミホイール",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/003/016/U00054003016/U00054003016_002L.JPG",
-        "total_price": "1243万円",
-        "base_price": "1228万円",
-        "year": "2022(R04)",
-        "mileage": "4.4万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年06月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
-        "area": "神奈川県横浜市港南区",
         "color": ""
       },
       {
@@ -37954,7 +37954,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:54:44.424153"
+    "scraped_at": "2026-10-16T23:08:48.051529"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -42030,7 +42030,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:55:11.318496"
+    "scraped_at": "2026-10-16T23:09:19.057219"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -52053,6 +52053,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-16T17:56:15.472938"
+    "scraped_at": "2026-10-16T23:10:27.176145"
   }
 ]
