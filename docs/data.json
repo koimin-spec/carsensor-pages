@@ -6,7 +6,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:30.850293"
+    "scraped_at": "2026-10-21T14:16:38.371406"
   },
   {
     "label": "キャンパー鹿児島",
@@ -15,7 +15,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:35.052743"
+    "scraped_at": "2026-10-21T14:16:42.213939"
   },
   {
     "label": "キャンピングカー",
@@ -24,7 +24,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:38.948435"
+    "scraped_at": "2026-10-21T14:16:46.459151"
   },
   {
     "label": "トイファクトリー",
@@ -33,7 +33,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:43.036804"
+    "scraped_at": "2026-10-21T14:16:50.566570"
   },
   {
     "label": "メルセデス S026",
@@ -42,7 +42,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:47.138063"
+    "scraped_at": "2026-10-21T14:16:54.721347"
   },
   {
     "label": "ベンツ S560",
@@ -51,7 +51,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:50.800190"
+    "scraped_at": "2026-10-21T14:16:58.556625"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -60,7 +60,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:54.474956"
+    "scraped_at": "2026-10-21T14:17:02.226517"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -69,7 +69,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:02:58.829941"
+    "scraped_at": "2026-10-21T14:17:06.151191"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -78,7 +78,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:03:02.683311"
+    "scraped_at": "2026-10-21T14:17:10.345356"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -87,7 +87,7 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:03:06.399072"
+    "scraped_at": "2026-10-21T14:17:14.469121"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -96,6 +96,6 @@
     "scraped_count": 0,
     "cars": [],
     "error": null,
-    "scraped_at": "2026-10-21T08:03:10.602931"
+    "scraped_at": "2026-10-21T14:17:18.200513"
   }
 ]
