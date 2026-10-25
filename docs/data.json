@@ -292,7 +292,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:29:05.659938"
+    "scraped_at": "2026-10-25T17:28:28.385167"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2392,12 +2392,12 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:29:22.014805"
+    "scraped_at": "2026-10-25T17:28:45.100377"
   },
   {
     "label": "キャンピングカー",
     "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC/index.html?SORT=21",
-    "total_count": "2664",
+    "total_count": "2665",
     "scraped_count": 100,
     "cars": [
       {
@@ -4302,7 +4302,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:29:38.286027"
+    "scraped_at": "2026-10-25T17:29:01.107813"
   },
   {
     "label": "トイファクトリー",
@@ -10259,7 +10259,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:30:20.565733"
+    "scraped_at": "2026-10-25T17:29:42.694101"
   },
   {
     "label": "メルセデス S026",
@@ -15855,7 +15855,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:31:00.494702"
+    "scraped_at": "2026-10-25T17:30:21.937322"
   },
   {
     "label": "ベンツ S560",
@@ -16644,7 +16644,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:31:08.634734"
+    "scraped_at": "2026-10-25T17:30:29.553251"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -21898,7 +21898,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:31:47.091706"
+    "scraped_at": "2026-10-25T17:31:07.181274"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -23998,13 +23998,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:32:03.958392"
+    "scraped_at": "2026-10-25T17:31:23.625404"
   },
   {
     "label": "メルセデス S029 (2015〜)",
     "url": "https://www.carsensor.net/usedcar/search.php?STID=CS210610&SORT=22&CARC=ME_S029&YMIN=2015",
-    "total_count": "774",
-    "scraped_count": 774,
+    "total_count": "771",
+    "scraped_count": 771,
     "cars": [
       {
         "search_label": "メルセデス S029 (2015〜)",
@@ -26554,25 +26554,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7215528240",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7215528240/index.html",
-        "title": "Gクラス G350d ロング ディーゼルターボ 4WD 禁煙/ラグジュアリーパッケージ/スライディングルーフ/黒革/シートヒーター/ハーマンカードン/ETC/8インチメーカーナビ/パーキングアシストリアビューカメラ/アンビエントライト/純正フロアマット",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/684/172/UZ0053684172/UZ0053684172_001L.JPG",
-        "total_price": "879万円",
-        "base_price": "873万円",
-        "year": "2018(H30)",
-        "mileage": "1.9万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年04月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "フロアMTモード付7AT",
-        "shop_name": "ガリバー 津島店無料電話は24時間ご案内！！全国のガリバー在庫も見たい方は一括照会が可能です！",
-        "area": "愛知県津島市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7361912471",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7361912471/index.html",
         "title": "Gクラス G550 ロング 4WD デジーノクラシックレッドレザー スライディングルーフ ハーマンカードンサウンド シートヒーター ウッドコンビステアリング",
@@ -27139,25 +27120,6 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "Ｔ．Ｕ．Ｃ．ＧＲＯＵＰ メルセデスベンツ・買取直販　柏インター／（株）シーリーフ大展示場のＴ.Ｕ.Ｃ.ＧＲＯＵＰ メルセデスベンツ・輸入車買取直販専門『柏インター』",
         "area": "千葉県野田市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7438656132",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7438656132/index.html",
-        "title": "Gクラス G350d ヘリテージ エディション ディーゼルターボ 4WD 限定車 ヘリテージエディション サンルーフ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/560/280/UZ0054560280/UZ0054560280_001L.JPG",
-        "total_price": "999万円",
-        "base_price": "993万円",
-        "year": "2018(H30)",
-        "mileage": "1.1万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "フロアMTモード付7AT",
-        "shop_name": "ガリバー 世田谷成城店少しでも気になったら、まずは気軽にご相談ください",
-        "area": "東京都世田谷区",
         "color": ""
       },
       {
@@ -27899,25 +27861,6 @@
         "mission": "コラム9AT",
         "shop_name": "ＳＡＥＫＩ　ＭＯＴＯＲＳ「全てはお客様のために」をスローガンに、創業以来地元葛飾と共に歩んで参りました。",
         "area": "東京都葛飾区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7343689526",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7343689526/index.html",
-        "title": "Gクラス G350d ディーゼルターボ 4WD 禁煙車 ラグジュアリーPKG ブルメスターサウンド ガラスサンルーフ AMG20インチブラック塗装AW 本革シート シートヒーター 純正ナビ フルセグTV 360°カメラ ETC ACC BSM レーダーセーフティパッケージ Bluetooth",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/216/879/UZ0054216879/UZ0054216879_001L.JPG",
-        "total_price": "1169万円",
-        "base_price": "1163万円",
-        "year": "2020(R02)",
-        "mileage": "4.5万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラお台場無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "東京都江東区",
         "color": ""
       },
       {
@@ -38714,7 +38657,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:33:44.621686"
+    "scraped_at": "2026-10-25T17:33:06.048505"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -42942,13 +42885,13 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:34:15.938953"
+    "scraped_at": "2026-10-25T17:33:37.020453"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
     "url": "https://www.carsensor.net/usedcar/bME/s029/index.html?YMIN=2020&LP=ME_S029&SORT=2",
-    "total_count": "535",
-    "scraped_count": 535,
+    "total_count": "534",
+    "scraped_count": 534,
     "cars": [
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
@@ -43332,25 +43275,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7343689526",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7343689526/index.html",
-        "title": "Gクラス G350d ディーゼルターボ 4WD 禁煙車 ラグジュアリーPKG ブルメスターサウンド ガラスサンルーフ AMG20インチブラック塗装AW 本革シート シートヒーター 純正ナビ フルセグTV 360°カメラ ETC ACC BSM レーダーセーフティパッケージ Bluetooth",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/216/879/UZ0054216879/UZ0054216879_001L.JPG",
-        "total_price": "1169万円",
-        "base_price": "1163万円",
-        "year": "2020(R02)",
-        "mileage": "4.5万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年07月",
-        "warranty": "保証付",
-        "displacement": "2900CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラお台場無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "東京都江東区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7184709978",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7184709978/index.html",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD",
@@ -43522,6 +43446,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7322292740",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7322292740/index.html",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD AMGライン AMGスタイリングPKG ラグジュアリーPKG ガラススライディングルーフ Burmesterサラウンド レーダーセーフティーPKG マルチビームLEDヘッドライト アダプティブハイビームアシストプラス 360°カメラ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/113/577/UZ0054113577/UZ0054113577_001L.JPG",
+        "total_price": "1201万円",
+        "base_price": "1195万円",
+        "year": "2020(R02)",
+        "mileage": "2.9万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年04月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ札幌白石無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
+        "area": "北海道札幌市白石区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7352699540",
         "detail_url": "",
         "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202602 弊社ユーザー買取　ワンオーナー車　禁煙車　新車保証継承　AMGラインパッケージ　ガラススライディングルーフ　360°カメラシステム　ドライビングアシスタンスパッケージ　MBUX　レーダーセーフティーパッケージ",
@@ -43556,25 +43499,6 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
         "area": "神奈川県川崎市麻生区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7322292740",
-        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7322292740/index.html",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD AMGライン AMGスタイリングPKG ラグジュアリーPKG ガラススライディングルーフ Burmesterサラウンド レーダーセーフティーPKG マルチビームLEDヘッドライト アダプティブハイビームアシストプラス 360°カメラ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/113/577/UZ0054113577/UZ0054113577_001L.JPG",
-        "total_price": "1201万円",
-        "base_price": "1195万円",
-        "year": "2020(R02)",
-        "mileage": "2.9万km",
-        "repair_history": "なし",
-        "inspection": "2027(R09)年04月",
-        "warranty": "保証付",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "ＬＩＢＥＲＡＬＡ リベラーラ札幌白石無料電話は24時間ご案内！！全国のLIBERALA在庫も見たい方は一括照会が可能です！",
-        "area": "北海道札幌市白石区",
         "color": ""
       },
       {
@@ -53117,6 +53041,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-25T13:35:26.906911"
+    "scraped_at": "2026-10-25T17:34:45.439115"
   }
 ]
