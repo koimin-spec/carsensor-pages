@@ -292,7 +292,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:56:23.335447"
+    "scraped_at": "2026-10-31T18:19:06.668935"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2563,12 +2563,12 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:56:38.108800"
+    "scraped_at": "2026-10-31T18:19:22.447682"
   },
   {
     "label": "キャンピングカー",
     "url": "https://www.carsensor.net/usedcar/freeword/%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%94%E3%83%B3%E3%82%B0%E3%82%AB%E3%83%BC/index.html?SORT=21",
-    "total_count": "2706",
+    "total_count": "2707",
     "scraped_count": 100,
     "cars": [
       {
@@ -2727,7 +2727,7 @@
         "search_label": "キャンピングカー",
         "car_id": "AU7467247550",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7467247550/index.html",
-        "title": "ビーカム 日本特種ボディ　NTB サクラ 日本特種ボディ　NTB サクラ　3000リットルディーゼル　9速AT ワンオーナー　アラウンドビューカメラ　メモリーナビ　ドラレコ　ETC　10kWhリチウムBT  家庭用エアコン　マルチコントロール付FFヒーター",
+        "title": "ビーカム 日本特種ボディ　NTB サクラ ソーラーパネル1000W リチウム10kWh 　 9速AT ワンオーナー　アラウンドビューカメラ　メモリーナビ　ドラレコ　ETC 家庭用エアコン　マルチコントロール付FFヒーター",
         "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/679/495/U00054679495/U00054679495_001L.JPG",
         "total_price": "2129万円",
         "base_price": "2129万円",
@@ -4473,7 +4473,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:56:52.427554"
+    "scraped_at": "2026-10-31T18:19:38.963834"
   },
   {
     "label": "トイファクトリー",
@@ -10848,7 +10848,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:57:31.967608"
+    "scraped_at": "2026-10-31T18:20:23.293265"
   },
   {
     "label": "メルセデス S026",
@@ -16387,7 +16387,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:58:06.126740"
+    "scraped_at": "2026-10-31T18:21:00.237397"
   },
   {
     "label": "ベンツ S560",
@@ -17119,7 +17119,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:58:13.952300"
+    "scraped_at": "2026-10-31T18:21:07.916128"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -22563,7 +22563,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:58:48.586870"
+    "scraped_at": "2026-10-31T18:21:44.805211"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -24739,7 +24739,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T14:59:03.579883"
+    "scraped_at": "2026-10-31T18:22:00.689757"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -28777,25 +28777,6 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7373634786",
-        "detail_url": "",
-        "title": "Gクラス G580 ウィズ EQ テクノロジー 4WD MP202601 MANUFAKTURプログラムプラス　ブラックエクステリアパッケージ　ナイトパッケージ　本革ナッパレザーシート(MANUFAKTURカタラーナベージュ)20インチAMGアルミホイール　認定中古車　弊社デモカー　純正ドラレコ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/343/663/U00054343663/U00054343663_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2026(R08)",
-        "mileage": "0.1万km",
-        "repair_history": "なし",
-        "inspection": "2029(R11)年06月",
-        "warranty": "保証付",
-        "displacement": "不明",
-        "mission": "その他MTモード付AT",
-        "shop_name": "メルセデス・ベンツ横浜東サーティファイドカーセンター全国ご納車可能！2年保証付き！実質年率2.9%～（ローン）ご案内可能でございます!",
-        "area": "神奈川県横浜市鶴見区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7118306300",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU7118306300/index.html",
         "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD AMGライン・ETC・360度カメラ・シートヒーター・バックカメラ・革シート・サンルーフ",
@@ -29362,6 +29343,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "ＣＲＹＳＴＡＬ　ＦＩＮＥ　クリスタルファイン",
         "area": "愛知県春日井市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7373634786",
+        "detail_url": "",
+        "title": "Gクラス G580 ウィズ EQ テクノロジー 4WD MP202601 MANUFAKTURプログラムプラス　ブラックエクステリアパッケージ　ナイトパッケージ　本革ナッパレザーシート(MANUFAKTURカタラーナベージュ)20インチAMGアルミホイール　認定中古車　弊社デモカー　純正ドラレコ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/343/663/U00054343663/U00054343663_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2026(R08)",
+        "mileage": "0.1万km",
+        "repair_history": "なし",
+        "inspection": "2029(R11)年06月",
+        "warranty": "保証付",
+        "displacement": "不明",
+        "mission": "その他MTモード付AT",
+        "shop_name": "メルセデス・ベンツ横浜東サーティファイドカーセンター全国ご納車可能！2年保証付き！実質年率2.9%～（ローン）ご案内可能でございます!",
+        "area": "神奈川県横浜市鶴見区",
         "color": ""
       },
       {
@@ -39968,7 +39968,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T15:00:33.920397"
+    "scraped_at": "2026-10-31T18:23:35.023049"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -44272,7 +44272,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T15:01:00.756074"
+    "scraped_at": "2026-10-31T18:24:05.893231"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -45460,6 +45460,25 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7373634786",
+        "detail_url": "",
+        "title": "Gクラス G580 ウィズ EQ テクノロジー 4WD MP202601 MANUFAKTURプログラムプラス　ブラックエクステリアパッケージ　ナイトパッケージ　本革ナッパレザーシート(MANUFAKTURカタラーナベージュ)20インチAMGアルミホイール　認定中古車　弊社デモカー　純正ドラレコ",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/343/663/U00054343663/U00054343663_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2026(R08)",
+        "mileage": "0.1万km",
+        "repair_history": "なし",
+        "inspection": "2029(R11)年06月",
+        "warranty": "保証付",
+        "displacement": "不明",
+        "mission": "その他MTモード付AT",
+        "shop_name": "メルセデス・ベンツ横浜東サーティファイドカーセンター全国ご納車可能！2年保証付き！実質年率2.9%～（ローン）ご案内可能でございます!",
+        "area": "神奈川県横浜市鶴見区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU2956328301",
         "detail_url": "https://www.carsensor.net/usedcar/detail/AU2956328301/index.html",
         "title": "Gクラス G350d マヌファクトゥーア エディション ディーゼルターボ 4WD ナイトパッケージ Burmesterサラウンド",
@@ -46026,25 +46045,6 @@
         "mission": "コラム9AT",
         "shop_name": "ワンオーナー車を通して末長くお付き合いをさせて下さい！全車両試乗可能です！",
         "area": "東京都江戸川区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7373634786",
-        "detail_url": "",
-        "title": "Gクラス G580 ウィズ EQ テクノロジー 4WD MP202601 MANUFAKTURプログラムプラス　ブラックエクステリアパッケージ　ナイトパッケージ　本革ナッパレザーシート(MANUFAKTURカタラーナベージュ)20インチAMGアルミホイール　認定中古車　弊社デモカー　純正ドラレコ",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/343/663/U00054343663/U00054343663_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2026(R08)",
-        "mileage": "0.1万km",
-        "repair_history": "なし",
-        "inspection": "2029(R11)年06月",
-        "warranty": "保証付",
-        "displacement": "不明",
-        "mission": "その他MTモード付AT",
-        "shop_name": "メルセデス・ベンツ横浜東サーティファイドカーセンター全国ご納車可能！2年保証付き！実質年率2.9%～（ローン）ご案内可能でございます!",
-        "area": "神奈川県横浜市鶴見区",
         "color": ""
       },
       {
@@ -54960,6 +54960,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-10-31T15:02:06.662738"
+    "scraped_at": "2026-10-31T18:25:15.955868"
   }
 ]
