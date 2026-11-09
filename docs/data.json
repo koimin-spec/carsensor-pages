@@ -273,7 +273,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:24:19.191969"
+    "scraped_at": "2026-11-09T23:18:02.499590"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2449,7 +2449,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:24:34.947876"
+    "scraped_at": "2026-11-09T23:18:16.936697"
   },
   {
     "label": "キャンピングカー",
@@ -4359,7 +4359,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:24:50.267522"
+    "scraped_at": "2026-11-09T23:18:31.088128"
   },
   {
     "label": "トイファクトリー",
@@ -10924,7 +10924,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:25:33.141557"
+    "scraped_at": "2026-11-09T23:19:10.670066"
   },
   {
     "label": "メルセデス S026",
@@ -16672,7 +16672,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:26:14.360438"
+    "scraped_at": "2026-11-09T23:19:47.238866"
   },
   {
     "label": "ベンツ S560",
@@ -17404,7 +17404,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:26:22.427459"
+    "scraped_at": "2026-11-09T23:19:54.488441"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -22753,7 +22753,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:26:59.205298"
+    "scraped_at": "2026-11-09T23:20:28.714062"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -24891,7 +24891,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:27:14.767249"
+    "scraped_at": "2026-11-09T23:20:43.765147"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -25471,6 +25471,25 @@
       },
       {
         "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7438656981",
+        "detail_url": "",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202601 弊社ユーザー様お下取り車　AMGライン　マヌファクトゥーアプログラム　ナイトPKG　本革シート　サンルーフ　MBUX　360度カメラ　前席パワーシート　シートヒーター　ベンチレーター　アンビエントライト64色",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/559/023/U00054559023/U00054559023_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2026(R08)",
+        "mileage": "0.6万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
         "car_id": "AU7485691726",
         "detail_url": "",
         "title": "Gクラス G580 ウィズ EQ テクノロジー エディション1 4WD 弊社デモカーアップ　ナイトパッケージ　AMGラインエクステリア　Burmester 3Dサラウンドサウンドシステム　MANUFAKTURプログラム　ガラススライディングルーフ　ドライビングアシスタンスパッケージ　360°カメラ",
@@ -25486,25 +25505,6 @@
         "mission": "その他AT",
         "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
         "area": "神奈川県横浜市港南区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7474587478",
-        "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "1.2万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -26075,6 +26075,25 @@
         "mission": "フロア7AT",
         "shop_name": "ユニバース　堺東証プライム市場上場、正規輸入車ディーラー運営、グループ輸入車総在庫2,000台以上",
         "area": "大阪府堺市堺区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス S029 (2015〜)",
+        "car_id": "AU7474587478",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "1.2万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -27215,25 +27234,6 @@
         "mission": "フロアMTモード付7AT",
         "shop_name": "有限会社　アーガス",
         "area": "埼玉県桶川市",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス S029 (2015〜)",
-        "car_id": "AU7438656981",
-        "detail_url": "",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202601 弊社ユーザー様お下取り車　AMGライン　マヌファクトゥーアプログラム　ナイトPKG　本革シート　サンルーフ　MBUX　360度カメラ　前席パワーシート　シートヒーター　ベンチレーター　アンビエントライト64色",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/559/023/U00054559023/U00054559023_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2026(R08)",
-        "mileage": "0.6万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -40044,7 +40044,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:28:53.800313"
+    "scraped_at": "2026-11-09T23:22:16.985638"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -44348,7 +44348,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:29:23.503351"
+    "scraped_at": "2026-11-09T23:22:44.521271"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -44928,25 +44928,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7474587478",
-        "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "1.2万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7485691726",
         "detail_url": "",
         "title": "Gクラス G580 ウィズ EQ テクノロジー エディション1 4WD 弊社デモカーアップ　ナイトパッケージ　AMGラインエクステリア　Burmester 3Dサラウンドサウンドシステム　MANUFAKTURプログラム　ガラススライディングルーフ　ドライビングアシスタンスパッケージ　360°カメラ",
@@ -44962,6 +44943,25 @@
         "mission": "その他AT",
         "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
         "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7474587478",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "1.2万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -54903,6 +54903,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-09T19:30:32.713754"
+    "scraped_at": "2026-11-09T23:23:48.414966"
   }
 ]
