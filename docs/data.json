@@ -254,7 +254,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:00:03.379438"
+    "scraped_at": "2026-11-15T19:37:21.570837"
   },
   {
     "label": "キャンパー鹿児島",
@@ -2544,7 +2544,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:00:17.401564"
+    "scraped_at": "2026-11-15T19:37:35.373663"
   },
   {
     "label": "キャンピングカー",
@@ -4454,7 +4454,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:00:31.508595"
+    "scraped_at": "2026-11-15T19:37:49.543336"
   },
   {
     "label": "トイファクトリー",
@@ -11285,7 +11285,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:01:11.273134"
+    "scraped_at": "2026-11-15T19:38:30.995024"
   },
   {
     "label": "メルセデス S026",
@@ -17128,7 +17128,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:01:50.405811"
+    "scraped_at": "2026-11-15T19:39:09.340217"
   },
   {
     "label": "ベンツ S560",
@@ -17860,7 +17860,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:01:57.923438"
+    "scraped_at": "2026-11-15T19:39:16.576155"
   },
   {
     "label": "メルセデス S019 (2021〜)",
@@ -23323,7 +23323,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:02:33.597283"
+    "scraped_at": "2026-11-15T19:39:52.056330"
   },
   {
     "label": "メルセデス S019 ロング (2021〜)",
@@ -25556,7 +25556,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:02:48.681582"
+    "scraped_at": "2026-11-15T19:40:07.367806"
   },
   {
     "label": "メルセデス S029 (2015〜)",
@@ -40918,7 +40918,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:04:19.057285"
+    "scraped_at": "2026-11-15T19:41:39.055360"
   },
   {
     "label": "メルセデスAMG Gクラス (2019〜)",
@@ -45621,7 +45621,7 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:04:49.160461"
+    "scraped_at": "2026-11-15T19:42:08.974009"
   },
   {
     "label": "メルセデス ME_S029 (2020〜)",
@@ -46201,25 +46201,6 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7438656981",
-        "detail_url": "",
-        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202601 弊社ユーザー様お下取り車　AMGライン　マヌファクトゥーアプログラム　ナイトPKG　本革シート　サンルーフ　MBUX　360度カメラ　前席パワーシート　シートヒーター　ベンチレーター　アンビエントライト64色",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/559/023/U00054559023/U00054559023_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2026(R08)",
-        "mileage": "0.6万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
         "car_id": "AU7485691726",
         "detail_url": "",
         "title": "Gクラス G580 ウィズ EQ テクノロジー エディション1 4WD 弊社デモカーアップ　ナイトパッケージ　AMGラインエクステリア　Burmester 3Dサラウンドサウンドシステム　MANUFAKTURプログラム　ガラススライディングルーフ　ドライビングアシスタンスパッケージ　360°カメラ",
@@ -46235,6 +46216,25 @@
         "mission": "その他AT",
         "shop_name": "メルセデス・ベンツ港南台サーティファイドカーセンターMercedes-Benz Dealer Award 2024 優秀販売店賞受賞★☆★",
         "area": "神奈川県横浜市港南区",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7474587478",
+        "detail_url": "",
+        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
+        "total_price": "---",
+        "base_price": "---",
+        "year": "2022(R04)",
+        "mileage": "1.2万km",
+        "repair_history": "なし",
+        "inspection": "車検整備無",
+        "warranty": "保証無",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -46809,33 +46809,14 @@
       },
       {
         "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7474587478",
+        "car_id": "AU7438656981",
         "detail_url": "",
-        "title": "Gクラス G350d AMGライン ディーゼルターボ 4WD ラグジュアリーパッケージ　アダプティブダンピングシステム　AMGライン　レーダーセーフティパッケージ　360度カメラシステム　シートヒーター サンルーフ ブルメスターサラウンドサウンドシステム",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/708/121/U00054708121/U00054708121_001L.JPG",
+        "title": "Gクラス G450d AMGラインパッケージ (ISG) ディーゼルターボ 4WD MP202601 弊社ユーザー様お下取り車　AMGライン　マヌファクトゥーアプログラム　ナイトPKG　本革シート　サンルーフ　MBUX　360度カメラ　前席パワーシート　シートヒーター　ベンチレーター　アンビエントライト64色",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/559/023/U00054559023/U00054559023_001L.JPG",
         "total_price": "---",
         "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "1.2万km",
-        "repair_history": "なし",
-        "inspection": "車検整備無",
-        "warranty": "保証無",
-        "displacement": "3000CC",
-        "mission": "コラムMTモード付9AT",
-        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
-        "area": "神奈川県川崎市麻生区",
-        "color": ""
-      },
-      {
-        "search_label": "メルセデス ME_S029 (2020〜)",
-        "car_id": "AU7500729895",
-        "detail_url": "",
-        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD レーダーセーフティパッケージ　ラグジュアリーパッケージ　ガラススライディングルーフ　ナッパレザーシート　リラクゼーション機能　アダプティブダンピングシステム　マヌファクトゥーアプログラムプラス",
-        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/794/894/U00054794894/U00054794894_001L.JPG",
-        "total_price": "---",
-        "base_price": "---",
-        "year": "2022(R04)",
-        "mileage": "2万km",
+        "year": "2026(R08)",
+        "mileage": "0.6万km",
         "repair_history": "なし",
         "inspection": "車検整備無",
         "warranty": "保証無",
@@ -49560,6 +49541,25 @@
         "mission": "コラムMTモード付9AT",
         "shop_name": "（有）カー倶楽部Ｃｏｕｒａｇｅ 砥堀本店　ＪＵ適正販売店姫路市で新車・高年式中古車を買うなら（有）カ-倶楽部Courage 砥堀本店へ！",
         "area": "兵庫県姫路市",
+        "color": ""
+      },
+      {
+        "search_label": "メルセデス ME_S029 (2020〜)",
+        "car_id": "AU7500729895",
+        "detail_url": "https://www.carsensor.net/usedcar/detail/AU7500729895/index.html",
+        "title": "Gクラス G400d AMGライン ディーゼルターボ 4WD レーダーセーフティパッケージ　ラグジュアリーパッケージ　ガラススライディングルーフ　ナッパレザーシート　リラクゼーション機能　アダプティブダンピングシステム　マヌファクトゥーアプログラムプラス",
+        "image_url": "https://ccsrpcma.carsensor.net/CSphoto/bkkn/794/894/U00054794894/U00054794894_001L.JPG",
+        "total_price": "1541万円",
+        "base_price": "1528万円",
+        "year": "2022(R04)",
+        "mileage": "2万km",
+        "repair_history": "なし",
+        "inspection": "2027(R09)年03月",
+        "warranty": "保証付",
+        "displacement": "3000CC",
+        "mission": "コラムMTモード付9AT",
+        "shop_name": "メルセデス・ベンツ新百合ヶ丘サーティファイドカーセンター◆オンライン商談キャンペーン",
+        "area": "神奈川県川崎市麻生区",
         "color": ""
       },
       {
@@ -56385,6 +56385,6 @@
       }
     ],
     "error": null,
-    "scraped_at": "2026-11-15T16:05:56.240443"
+    "scraped_at": "2026-11-15T19:43:12.984996"
   }
 ]
